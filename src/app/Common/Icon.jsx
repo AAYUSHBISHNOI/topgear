@@ -420,6 +420,34 @@ export const Feedback = () => {
     </svg>
   );
 };
+export const CommonArrowBlack = () => {
+  return (
+    <svg
+      width="45"
+      height="45"
+      viewBox="0 0 45 45"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="transition-all duration-700"
+    >
+      <circle
+        cx="22.7779"
+        cy="22.2222"
+        r="21.7222"
+        className="fill-white transition-all duration-700 group-hover:fill-black"
+      />
+      <path
+        d="M20.5557 14.4443L27.9612 21.8499L20.5557 29.2554"
+        stroke="black"
+        strokeOpacity="0.9"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="transition-transform duration-700 group-hover:stroke-white"
+      />
+    </svg>
+  );
+};
 export const CommonArrow = () => {
   return (
     <svg

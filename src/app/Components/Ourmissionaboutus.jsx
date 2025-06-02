@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import { CommonArrow } from "../Common/Icon";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,6 +43,9 @@ const Ourmissionaboutus = () => {
       );
     });
   }, []);
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/+917988709158", "_blank", "noopener,noreferrer");
+  };
 
   return (
     <section
@@ -101,22 +105,19 @@ const Ourmissionaboutus = () => {
             </div>
 
             {/* Call to Action Button */}
-            <div className="flex justify-center lg:justify-start">
-              <a
-                href="https://wa.me/+917988709158"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-Poppins text-black text-[20px] font-normal bg-white rounded-full py-2 px-6 flex justify-center items-center gap-2.5 mt-[32px] hover:bg-gray-200 transition"
-                aria-label="Start your free trial on WhatsApp"
+            <div className="mt-3 md:mt-6 xl:mt-[43px] ">
+              <button
+                onClick={handleWhatsAppClick}
+                className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[240px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-black hover:text-white"
+                type="button"
               >
-                Start your Free Trial
-                <span
-                  aria-hidden="true"
-                  className="text-black text-xl font-bold"
-                >
-                  &gt;
+                <div className="transition-all duration-1000 transform group-hover:translate-x-52">
+                  <CommonArrow />
+                </div>
+                <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
+                  Start your Free Trial
                 </span>
-              </a>
+              </button>
             </div>
           </div>
 

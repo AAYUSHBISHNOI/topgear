@@ -60,7 +60,7 @@ const Ourprocesshome = () => {
               className="w-full md:w-1/2 lg:w-[25%] flex justify-center"
               aria-labelledby={`step-title-${id}`}
             >
-              <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[340px] h-full min-h-[222px] rounded-[32px] bg-white border-4 border-[#ababab] px-6 lg:px-4 xl:px-6 pb-10 pt-10 md:pt-[62px] relative flex flex-col">
+              <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[320px] h-full min-h-[222px] rounded-[32px] bg-white border-4 border-[#ababab] px-6 lg:px-4 xl:px-6 pb-10 pt-10 md:pt-[62px] relative flex flex-col">
                 <div className="mb-6 flex justify-center md:justify-start">
                   <Icon aria-hidden="true" />
                 </div>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { CommonArrow, CommonArrowBlack } from "../Common/Icon";
 
 const showcases = [
   {
@@ -33,6 +34,9 @@ const showcases = [
     location: "Haryana",
   },
 ];
+const handleWhatsAppClick = () => {
+  window.open("https://wa.me/+917988709158", "_blank", "noopener,noreferrer");
+};
 
 const Recentshowcasehome = () => {
   return (
@@ -70,18 +74,20 @@ const Recentshowcasehome = () => {
                 <div className={`${isSecond ? "hidden md:block" : ""} mb-6`}>
                   {/* Show Start Free Trial Button only for second on md+ */}
                   {isSecond && (
-                    <a
-                      href="https://wa.me/+917988709158"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2.5 mt-[32px] rounded-full bg-black py-1.5 px-3 font-dm text-white text-[20px] font-normal font-Poppins"
-                      aria-label="Start your Free Trial via WhatsApp"
-                    >
-                      <span className="inline-block bg-white text-black py-1 px-3 rounded-full text-xl text-center font-Poppins select-none">
-                        &gt;
-                      </span>
-                      Start your Free Trial
-                    </a>
+                    <div className="mt-3 md:mt-6 xl:mt-[43px] ">
+                      <button
+                        onClick={handleWhatsAppClick}
+                        className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-black text-white rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[240px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-[#8F8F8F] hover:text-white"
+                        type="button"
+                      >
+                        <div className="transition-all duration-1000 transform group-hover:translate-x-52">
+                          <CommonArrowBlack />
+                        </div>
+                        <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
+                          Start your Free Trial
+                        </span>
+                      </button>
+                    </div>
                   )}
                 </div>
 
@@ -115,18 +121,20 @@ const Recentshowcasehome = () => {
 
         {/* Mobile-only Start Free Trial Button */}
         <div className="flex justify-center items-center text-center md:hidden mt-10">
-          <a
-            href="https://wa.me/+917988709158"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 rounded-full bg-black py-1.5 px-3 font-dm text-white text-[20px] font-normal"
-            aria-label="Start your Free Trial via WhatsApp"
-          >
-            <span className="inline-block bg-white text-black py-1 px-3 rounded-full text-xl text-center select-none">
-              &gt;
-            </span>
-            Start your Free Trial
-          </a>
+          <div className="mt-3 md:mt-6 xl:mt-[43px] ">
+            <button
+              onClick={handleWhatsAppClick}
+              className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[240px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-black hover:text-white"
+              type="button"
+            >
+              <div className="transition-all duration-1000 transform group-hover:translate-x-52">
+                <CommonArrow />
+              </div>
+              <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
+                Start your Free Trial
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </section>

@@ -7,7 +7,6 @@ import Aboutushome from "../Components/Aboutushome";
 import Ourprocesshome from "../Components/Ourprocesshome";
 import Recentshowcasehome from "../Components/Recentshowcasehome";
 import Founderqoute from "../Components/Founderquote";
-// import Error from "../Components/Error";
 
 const Home = () => {
   return (

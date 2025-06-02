@@ -6,6 +6,25 @@ import Link from "next/link";
 import { Facebook, Instagram, Linkdin } from "../Common/Icon";
 
 const Footer = () => {
+  const logos = [
+    {
+      src: "/Images/Home/Svg/Tata-Logo.svg",
+      alt: "Tata Logo",
+    },
+    {
+      src: "/Images/Home/Svg/Hero-logo.svg",
+      alt: "Hero Logo",
+    },
+    {
+      src: "/Images/Home/Svg/Epson.svg",
+      alt: "Epson Logo",
+    },
+    {
+      src: "/Images/Home/Svg/Kubota.svg",
+      alt: "Kubota Logo",
+    },
+  ];
+
   return (
     <footer className="bg-[#0c0c0c] py-10 md:pt-14 lg:pt-[100px] md:pb-[60px]">
       <div className="max-w-[1400px] mx-auto px-4">
@@ -16,10 +35,11 @@ const Footer = () => {
               <Image
                 src="/Images/Home/Svg/Footer-Logo.svg"
                 alt="Cynor Media Logo"
-                width={100} // add width and height if you want optimization
+                width={100}
                 height={80}
+                className="max-w-[60px] lg:max-w-[100px]"
               />
-              <p className="font-Poppins font-semibold text-[20px] text-white mb-0">
+              <p className="font-Poppins font-semibold text-[26px] md:text-[20px] text-white mb-0">
                 Cynor Media
               </p>
             </Link>
@@ -65,10 +85,11 @@ const Footer = () => {
               </li>
               {[
                 { name: "Home", path: "/" },
-                { name: "Service", path: "/service" },
-                { name: "About Us", path: "/about-us" },
-                { name: "Our Clients", path: "/our-clients" },
-                { name: "Contact Us", path: "/contact-us" },
+                { name: "Service", path: "/services" },
+                { name: "About Us", path: "/aboutus" },
+                { name: "Our Clients", path: "/ourclient" },
+                { name: "Contact Us", path: "/contactus" },
+                // { name: "Privacy Policy", path: "/privacy-policy" },
               ].map((item) => (
                 <li key={item.path} className="mt-2 md:mt-4">
                   <Link
@@ -110,55 +131,20 @@ const Footer = () => {
               <p className="font-Poppins font-semibold text-xl text-white">
                 Trusted By
               </p>
-              <div className="flex gap-6 mt-4 items-center">
-                {[
-                  {
-                    src: "/Images/Home/Svg/Tata-Logo.svg",
-                    alt: "Tata Logo",
-                  },
-                  {
-                    src: "/Images/Home/Svg/Jhon-Deere-Logo.svg",
-                    alt: "John Deere Logo",
-                  },
-                  {
-                    src: "/Images/Home/Svg/Suzuki-Logo.svg",
-                    alt: "Maruti Logo",
-                  },
-                ].map((logo, i) => (
-                  <Image
+              <div className="grid grid-cols-2 gap-8 mt-4">
+                {logos.map(({ src, alt }, i) => (
+                  <div
                     key={i}
-                    src={logo.src}
-                    alt={logo.alt}
-                    width={100}
-                    height={80}
-                    className="w-[70px] xl:w-[100px] h-[80px]"
-                  />
-                ))}
-              </div>
-
-              <div className="flex gap-6 mt-4 items-center">
-                {[
-                  {
-                    src: "/Images/OurClients/Webp/Epson.webp",
-                    alt: "Epson Logo",
-                  },
-                  {
-                    src: "/Images/Home/Svg/Hero-logo.svg",
-                    alt: "Hero Logo",
-                  },
-                  {
-                    src: "/Images/OurClients/Webp/Kubota.webp",
-                    alt: "Kubota Logo",
-                  },
-                ].map((logo, i) => (
-                  <Image
-                    key={i}
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="w-[70px] xl:w-[100px] h-auto"
-                    width={100}
-                    height={80}
-                  />
+                    className="w-full flex justify-center items-center min-h-[20px]"
+                  >
+                    <Image
+                      src={src}
+                      alt={alt}
+                      width={100}
+                      height={60}
+                      className="object-contain"
+                    />
+                  </div>
                 ))}
               </div>
             </div>
@@ -170,7 +156,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="flex flex-wrap justify-between items-start gap-y-6">
-          <div>
+          <div className="w-full xl:w-[60%]">
             <p className="font-Poppins font-semibold text-xl text-white">
               Address
             </p>
@@ -179,7 +165,7 @@ const Footer = () => {
               Zirakpur, Punjab 140603
             </p>
           </div>
-          <div>
+          <div className="w-full md:w-2/4 xl:w-[20%]">
             <p className="font-Poppins font-semibold text-xl text-white">
               Copyright by
             </p>
@@ -187,7 +173,7 @@ const Footer = () => {
               Cynor Media
             </p>
           </div>
-          <div>
+          <div className="w-full md:w-2/4 xl:w-[20%] md:justify-end flex flex-col md:items-end">
             <p className="font-Poppins font-semibold text-xl text-white">
               Contact Us
             </p>

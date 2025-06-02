@@ -161,7 +161,7 @@ const Aboutushome = () => {
           </div>
 
           <button
-            className="font-Poppins text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]"
+            className="font-Poppins text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px] cursor-pointer"
             onClick={() =>
               window.open(
                 "https://wa.me/+917988709158",

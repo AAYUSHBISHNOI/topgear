@@ -56,7 +56,7 @@ const Customeraboutus = () => {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="w-full lg:w-1/3 md:hidden lg:block">
+        <div className="w-full lg:w-1/3 md:hidden lg:block mt-5">
           <Image
             src="/Images/About-Us/Webp/OurCustomer.webp"
             alt="Cynor Media vision illustration"
