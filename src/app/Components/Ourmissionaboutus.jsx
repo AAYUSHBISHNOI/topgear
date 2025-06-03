@@ -53,7 +53,7 @@ const Ourmissionaboutus = () => {
       aria-labelledby="counter-section-title"
       className="bg-[#0c0c0c] py-10 lg:py-[140px]"
     >
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <div className="flex flex-wrap text-center lg:text-start">
           {/* Text Content */}
           <div className="w-full lg:w-[55%] flex flex-col items-center justify-center lg:justify-start lg:items-start">

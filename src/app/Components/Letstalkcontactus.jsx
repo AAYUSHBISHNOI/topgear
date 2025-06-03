@@ -173,7 +173,7 @@ const LetsTalkContactUs = () => {
       aria-labelledby="contact-heading"
       className="py-10 lg:pt-14 xl:pt-24 lg:pb-[105px]"
     >
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <h2 className="text-center font-bold text-5xl ont-Montserrat leading-[121%]">
           Contact Us
         </h2>

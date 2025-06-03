@@ -8,7 +8,7 @@ import Image from "next/image";
 const reviews = [
   {
     name: "Krishna K",
-    image: "/Images/OurClients/Webp/Krishna.png",
+    image: "/Images/OurClients/Webp/Karmdeen.webp",
     feedback:
       "Had a great experience working with Cynor Media. They truly are the best BTL marketing agency around. Their team is very professional and knows exactly how to execute brand activations, mall events, and roadshows in a smooth and effective way..",
   },
@@ -20,7 +20,7 @@ const reviews = [
   },
   {
     name: "Hemant Bajaj",
-    image: "/Images/OurClients/Webp/Hemant.png",
+    image: "/Images/OurClients/Webp/Hemant.webp",
     feedback:
       "Very meticulous. Arranged 2 grand functions and many souvenirs from them. Truly impressive. Rates are very competitive and service extra ordinary. Had 4 vendors earlier, now working only with one as no one else could match Cynor's timelines and professionalism.",
   },
@@ -32,13 +32,13 @@ const reviews = [
   },
   {
     name: "Shray Gupta",
-    image: "/Images/OurClients/Webp/Sharygupta.png",
+    image: "/Images/OurClients/Webp/Sharygupta.webp",
     feedback:
       "The most amazing team for any marketing related activities... Be it ATLs or BTLs they pull it off with flare... I highly recommend them for their conceptualization and more than that their execution of any marketing activity or event... Keep up the good work team Cynor !",
   },
   {
     name: "Viki Bishnoi",
-    image: "/Images/OurClients/Webp/Vikki.png",
+    image: "/Images/OurClients/Webp/Vikki.webp",
     feedback:
       "Owesome experience, nice teaching staff, nice crowd to study with, Neelam maam give so much personal attention. I did not have good Pernunciation, now have gained lot of confidence in spoken also. Thanks a lot maam. You are savior to me. Thanks Bajinder sir for referring.",
   },
@@ -63,52 +63,52 @@ const reviews = [
 
   {
     name: "Rahul Sharma",
-    image: "/Images/OurClients/Webp/Rahul.png",
+    image: "/Images/OurClients/Webp/Rahul.webp",
     feedback:
       "Great team work' timely execution, sincere and polite staff, kudos team Cynor, looking forward to work with you at more locations.",
   },
 
   {
     name: "Rahul Sah",
-    image: "/Images/OurClients/Webp/Rahulsah.png",
+    image: "/Images/OurClients/Webp/Rahulsah.webp",
     feedback:
       "Hardworking team that will go the extra mile to ensure that you get the most bang for your buck.",
   },
   {
     name: "Karmdeen Khan",
-    image: "/Images/OurClients/Webp/Karmdeen.png",
+    image: "/Images/OurClients/Webp/Karmdeen.webp",
     feedback:
       "Best Event Company in Tricity. Working with Cynor from last 3 years .",
   },
   {
     name: "Partik kumar",
-    image: "/Images/OurClients/Webp/Partikkumar.png",
+    image: "/Images/OurClients/Webp/Partikkumar.webp",
     feedback:
       "A good service provider and rates are very competitive and providing services extra ordinary 👍",
   },
   {
     name: "Harish Bhardwaj",
-    image: "/Images/OurClients/Webp/Harish.png",
+    image: "/Images/OurClients/Webp/Harish.webp",
     feedback: "Good quality media work...great job flex designer",
   },
   {
     name: "Rohtash Kumar",
-    image: "/Images/OurClients/Webp/Rohtashkumar.png",
+    image: "/Images/OurClients/Webp/Rohtashkumar.webp",
     feedback: "Fully satisfied and Happy with their service.. go ahead",
   },
   {
     name: "Yogesh Garg",
-    image: "/Images/OurClients/Webp/Ypgeshgarg.png",
+    image: "/Images/OurClients/Webp/Ypgeshgarg.webp",
     feedback: "Excellent service provider and customer friendly",
   },
   {
     name: "Ajay Arya",
-    image: "/Images/OurClients/Webp/Ajayarya.png",
+    image: "/Images/OurClients/Webp/Ajayarya.webp",
     feedback: "Hardworking team and best service providers",
   },
   {
     name: "Rachit Sharma",
-    image: "/Images/OurClients/Webp/Rachit.png",
+    image: "/Images/OurClients/Webp/Rachit.webp",
     feedback: "Very prompt and innovative services...",
   },
 ];

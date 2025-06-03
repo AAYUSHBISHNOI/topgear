@@ -40,7 +40,7 @@ const Ourprocesshome = () => {
       className="pt-10 md:pt-14 lg:pt-[86px] lg:pb-[115px]"
       aria-labelledby="process-heading"
     >
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <header className="text-center flex flex-col justify-center items-center">
           <p className="text-[#64ccc5] font-semibold leading-[1.3] font-Poppins text-2xl md:text-3xl">
             Process

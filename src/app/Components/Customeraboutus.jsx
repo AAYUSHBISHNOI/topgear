@@ -8,7 +8,7 @@ import { Brands, Creativitys } from "../Common/Icon";
 const Customeraboutus = () => {
   return (
     <section>
-      <div className="max-w-[1400px] mx-auto px-4 flex flex-col lg:flex-row items-center justify-between mt-10">
+      <div className="container max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row items-center justify-between mt-10">
         {/* LEFT CONTENT */}
         <div className="w-full lg:w-2/3">
           <h2 className="font-Poppins text-black text-3xl lg:text-6xl font-bold leading-tight text-center lg:text-start">

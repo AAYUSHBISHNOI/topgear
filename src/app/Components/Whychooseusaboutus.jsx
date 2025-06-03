@@ -28,16 +28,16 @@ const WhyChooseUs = () => {
   return (
     <section
       aria-label="Reasons to choose Cynor Media"
-      className="relative py-10 xl:pt-20 lg:pb-32 bg-white z-10"
+      className="relative py-10 md:pt-[50px] md:pb-[80px] px-4 max-w-[1440px] mx-auto"
     >
       {/* Decorative Background Text */}
       <div className=" absolute -bottom-2.5 md:-bottom-6 lg:-bottom-[33px] xl:-bottom-[45px] -z-10">
-        <p className="font-Poppins font-bold text-[#747474] leading-[120%] text-[35px] sm:text-[40px] md:text-[98px] lg:text-[128px] xl:text-[180px]">
+        <p className="font-Poppins font-bold text-[#e9e9e9] leading-[120%] text-[35px] sm:text-[40px] md:text-[98px] lg:text-[128px] xl:text-[180px]">
           CYNOR MEDIA
         </p>
       </div>
 
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <h2 className="text-center text-light_black font-Poppins font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] leading-[121%]">
           Why Choose Us?
         </h2>

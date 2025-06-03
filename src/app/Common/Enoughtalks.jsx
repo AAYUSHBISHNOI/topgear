@@ -5,7 +5,7 @@ import React from "react";
 const Enoughtalks = () => {
   return (
     <section className="py-10 md:py-12 xl:py-[100px]">
-      <div className="container mx-auto max-w-[1400px] px-4">
+      <div className="container mx-auto max-w-[1440px] px-4">
         <div className="bg-enough-talks bg-cover bg-center rounded-3xl h-[150px] md:h-[209px] flex items-center justify-center text-center">
           <div className="flex flex-col items-center">
             <h2 className="font-Poppins font-semibold text-base md:text-[25px] xl:text-[35px] text-white leading-[1.2] max-w-[855px]">

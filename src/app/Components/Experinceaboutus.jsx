@@ -7,7 +7,7 @@ import { Seamless, Vision } from "../Common/Icon";
 const Experienceaboutus = () => {
   return (
     <section>
-      <div className="max-w-[1400px] mx-auto px-4 flex flex-col lg:flex-row items-center justify-between mt-10">
+      <div className="container max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row items-center justify-between mt-10">
         {/* IMAGE - LEFT SIDE FOR DESKTOP */}
         <div className="hidden lg:block w-full lg:w-1/3">
           <Image

@@ -27,7 +27,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#0c0c0c] py-10 md:pt-14 lg:pt-[100px] md:pb-[60px]">
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className="container max-w-[1440px] mx-auto px-4">
         <div className="flex flex-wrap">
           {/* Left Section */}
           <div className="w-full md:w-[55%] lg:w-[40%]">
@@ -160,10 +160,17 @@ const Footer = () => {
             <p className="font-Poppins font-semibold text-xl text-white">
               Address
             </p>
-            <p className="font-Poppins font-normal text-[15px] md:text-base text-white mt-2 md:mt-4 max-w-[796px]">
+            <a
+              href="https://www.google.com/maps/place/Cynor+Media/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-Poppins font-normal text-[15px] md:text-base text-white mt-2 md:mt-4 max-w-[796px]"
+            >
+              {" "}
               Opposite Nabha Sahib Gurudwara VIP road Zirakpur from, Patiala Rd,
               Zirakpur, Punjab 140603
-            </p>
+            </a>
+            <p></p>
           </div>
           <div className="w-full md:w-2/4 xl:w-[20%]">
             <p className="font-Poppins font-semibold text-xl text-white">

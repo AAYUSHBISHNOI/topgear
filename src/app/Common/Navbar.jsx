@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div className="bg-[#000000]">
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-[1400px] px-[20px] mt-2">
+        <div className="mx-auto container max-w-[1440px] px-[20px] mt-2">
           <div className="flex items-center justify-between h-[50px] md:h-[100px] z-50 relative">
             {/* Logo */}
             <div>

@@ -9,7 +9,7 @@ const Heroourclients = () => {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="relative z-10">
-        <div className="max-w-[1400px] mx-auto px-4">
+        <div className="container max-w-[1440px] mx-auto px-4">
           <div className="w-full px-4 lg:px-48 py-10 lg:py-20 rounded-2xl text-center">
             <h2 className="font-Poppins text-white font-semibold text-[26px] xl:text-6xl leading-[1.21] mb-2">
               Our Clients

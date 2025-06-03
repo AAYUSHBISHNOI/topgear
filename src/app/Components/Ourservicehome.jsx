@@ -12,7 +12,7 @@ import {
 
 const Ourservicehome = () => {
   return (
-    <section className="relative py-10 md:pt-[50px] md:pb-[80px] px-4 max-w-[1400px] mx-auto">
+    <section className="relative py-10 md:pt-[50px] md:pb-[80px] px-4 max-w-[1440px] mx-auto">
       {/* Background Text */}
       <p
         aria-hidden="true"

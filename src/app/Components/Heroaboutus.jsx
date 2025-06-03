@@ -6,7 +6,7 @@ import React from "react";
 const Heroaboutus = () => {
   return (
     <section className="bg-black py-10 lg:py-32">
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <div className="flex flex-wrap items-center text-center md:text-left">
           {/* LEFT SECTION */}
           <div className="w-full md:w-3/5 xl:w-[70%]">

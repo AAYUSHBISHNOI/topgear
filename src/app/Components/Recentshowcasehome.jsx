@@ -44,7 +44,7 @@ const Recentshowcasehome = () => {
       className="py-10 md:py-20 lg:pt-0"
       aria-labelledby="recent-showcase-heading"
     >
-      <div className="max-w-[1400px] mx-auto px-4">
+      <div className=" container max-w-[1440px] mx-auto px-4">
         <h2
           id="recent-showcase-heading"
           className="text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] font-Poppins font-semibold leading-[1.21] text-light_black text-center"

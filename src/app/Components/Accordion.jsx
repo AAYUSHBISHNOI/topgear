@@ -123,7 +123,7 @@ const Accordion = () => {
         {/* Right: Illustration */}
         <div className="w-full lg:w-2/5 flex justify-center lg:justify-end">
           <Image
-            src="/Images/OurClients/Faq.png"
+            src="/Images/OurClients/Webp/Faq.webp"
             alt="Illustration showing a person asking FAQs"
             className="max-w-full h-auto"
             width={400}

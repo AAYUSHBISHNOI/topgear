@@ -14,19 +14,19 @@
   background-image: url("/Images/Services/Gifs/Service-bg.gif");
 }
 .bg-para {
-  background-image: url("/Images/OurClients/Webp/Para-bg.png");
+  background-image: url("/Images/OurClients/Webp/Para-bg.webp");
 }
 .bg-enough-talks {
   background-image: url("/Images/About-Us/Webp/Call-to-action-bg.webp");
 }
 .bg-our-clients {
-  background-image: url("/Images/OurClients/Webp/Our-client-bg.png");
+  background-image: url("/Images/OurClients/Webp/Our-client-bg.webp");
 }
 .bg-hero {
-  background-image: url("/Images/Home/Png/Hero-bg-two.png");
+  background-image: url("/Images/Home/Webp/Hero-bg.webp");
 }
 .bg-error {
-  background-image: url("/Images/Error/Webp/Error-bg.png");
+  background-image: url("/Images/Error/Webp/Error-bg.webp");
 }
 .shadow-card-vision {
   box-shadow: 0 2px 21px 0 rgb(100, 204, 197);
