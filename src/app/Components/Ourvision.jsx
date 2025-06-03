@@ -19,7 +19,7 @@ const Ourvision = () => {
             To be the most innovative and result-driven BTL marketing company in
             India, transforming how brands connect with their audience through
             BTL marketing and other{" "}
-            <Link href="/services" className="text-[#64ccc5] font-extrabold">
+            <Link href="/service" className="text-[#64ccc5] font-extrabold">
               services
             </Link>{" "}
             in India and beyond.

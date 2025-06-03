@@ -4,7 +4,7 @@ import React from "react";
 import Campaigncards from "../Components/Campaigncards";
 import OurService from "../Components/Ourservices";
 
-const services = () => {
+const service = () => {
   return (
     <>
       <OurService />
@@ -13,4 +13,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default service;

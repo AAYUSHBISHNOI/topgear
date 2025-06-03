@@ -85,10 +85,10 @@ const Footer = () => {
               </li>
               {[
                 { name: "Home", path: "/" },
-                { name: "Service", path: "/services" },
-                { name: "About Us", path: "/aboutus" },
-                { name: "Our Clients", path: "/ourclient" },
-                { name: "Contact Us", path: "/contactus" },
+                { name: "Service", path: "/service" },
+                { name: "About Us", path: "/about-us" },
+                { name: "Our Clients", path: "/our-clients" },
+                { name: "Contact Us", path: "/contact-us" },
                 // { name: "Privacy Policy", path: "/privacy-policy" },
               ].map((item) => (
                 <li key={item.path} className="mt-2 md:mt-4">

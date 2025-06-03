@@ -12,7 +12,7 @@ const NotFound = () => {
       </p>
       <button
         onClick={() => router.push("/")}
-        className="bg-[#64ccc5] px-10 py-3 rounded-full text-white font-Poppins font-semibold mt-10"
+        className="bg-[#64ccc5] px-10 py-3 rounded-full text-white font-Poppins font-semibold mt-10 cursor-pointer hover:bg-[#44e6db] transition-colors duration-300"
       >
         BACK TO HOME
       </button>

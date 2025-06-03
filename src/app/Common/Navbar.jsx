@@ -10,10 +10,10 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "/services" },
-    { name: "About Us", path: "/aboutus" },
-    { name: "Our Clients", path: "/ourclient" },
-    { name: "Contact Us", path: "/contactus" },
+    { name: "Services", path: "/service" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Our Clients", path: "/our-clients" },
+    { name: "Contact Us", path: "/contact-us" },
   ];
 
   useEffect(() => {

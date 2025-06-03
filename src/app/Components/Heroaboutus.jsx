@@ -18,7 +18,7 @@ const Heroaboutus = () => {
               delivering impactful campaigns. We transform bold ideas into
               powerful brand experiences. Since 2015, we’ve led BTL event
               management across India, offering 360°{" "}
-              <a href="/services" className="text-[#64ccc5] font-extrabold">
+              <a href="/service" className="text-[#64ccc5] font-extrabold">
                 services
               </a>{" "}
               for promotions including float vans, product launches, corporate

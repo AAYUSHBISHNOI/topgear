@@ -63,7 +63,7 @@ const LetsTalkContactUs = () => {
     lastName: "",
     email: "",
     phone: "",
-    subject: "General Inquiry",
+    // subject: "General Inquiry",
     message: "",
   });
 
@@ -73,13 +73,13 @@ const LetsTalkContactUs = () => {
   const [isSending, setIsSending] = useState(false);
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
 
-  const subjects = [
-    "General Inquiry",
-    "Product Launch",
-    "BTL Activity",
-    "Exhibition Setup",
-    "Float Van",
-  ];
+  // const subjects = [
+  //   "General Inquiry",
+  //   "Product Launch",
+  //   "BTL Activity",
+  //   "Exhibition Setup",
+  //   "Float Van",
+  // ];
 
   // Update form data on input change
   const handleChange = (e) => {
@@ -141,7 +141,7 @@ const LetsTalkContactUs = () => {
         lastName: formData.lastName.trim(),
         email: formData.email.trim(),
         phone: formData.phone.trim(),
-        subject: formData.subject,
+        // subject: formData.subject,
         message: formData.message.trim(),
       };
       // Replace these with your EmailJS service ID, template ID, and public key
@@ -157,7 +157,7 @@ const LetsTalkContactUs = () => {
         lastName: "",
         email: "",
         phone: "",
-        subject: "General Inquiry",
+        // subject: "General Inquiry",
         message: "",
       });
     } catch (error) {
@@ -309,7 +309,7 @@ const LetsTalkContactUs = () => {
               </div>
 
               {/* Custom Subject Radio Buttons */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <label className="block font-Poppins font-medium text-base mb-2">
                   Select Services ?
                 </label>
@@ -350,7 +350,7 @@ const LetsTalkContactUs = () => {
                     </label>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               <textarea
                 name="message"

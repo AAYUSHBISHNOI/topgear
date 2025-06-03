@@ -19,7 +19,7 @@ const Customeraboutus = () => {
             From first-time clients to long-term partners — hear real stories of
             real impact from the brands and customers who trust us. Whether it’s
             BTL marketing, float van services, or brand promotion{" "}
-            <Link href="/services" className="text-[#64ccc5] font-extrabold">
+            <Link href="/service" className="text-[#64ccc5] font-extrabold">
               services
             </Link>
             , our clients have seen real impact with Cynor Media.
