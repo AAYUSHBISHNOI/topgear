@@ -11,9 +11,9 @@ const Heroourclients = () => {
       <div className="relative z-10">
         <div className="container max-w-[1440px] mx-auto px-4">
           <div className="w-full px-4 lg:px-48 py-10 lg:py-20 rounded-2xl text-center">
-            <h2 className="font-Poppins text-white font-semibold text-[26px] xl:text-6xl leading-[1.21] mb-2">
+            <h1 className="font-Poppins text-white font-semibold text-[26px] xl:text-6xl leading-[1.21] mb-2">
               Our Clients
-            </h2>
+            </h1>
 
             <p className="font-Poppins text-white font-normal text-lg leading-[121%] max-w-[860px] mx-auto">
               We proudly collaborate with leading brands across India,

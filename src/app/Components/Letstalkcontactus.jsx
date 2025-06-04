@@ -174,9 +174,9 @@ const LetsTalkContactUs = () => {
       className="py-10 lg:pt-14 xl:pt-24 lg:pb-[105px]"
     >
       <div className=" container max-w-[1440px] mx-auto px-4">
-        <h2 className="text-center font-bold text-5xl ont-Montserrat leading-[121%]">
+        <h1 className="text-center font-bold text-5xl ont-Montserrat leading-[121%]">
           Contact Us
-        </h2>
+        </h1>
         <p className="text-center mt-4 font-Poppins text-lg text-[#c9c9c9]">
           Any question or remarks? Just write us a message!
         </p>

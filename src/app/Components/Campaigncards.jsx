@@ -150,9 +150,9 @@ const Campaigncards = () => {
     <section className="bg-[#f4f4f4] py-10 md:py-[78px]">
       <div className=" container max-w-[1440px] mx-auto px-4">
         <div className=" text-center items-center flex flex-col justify-center">
-          <h2 className="font-roboto font-bold text-4xl lg:text-[77px] leading-tight text-black">
+          <h1 className="font-roboto font-bold text-4xl lg:text-[77px] leading-tight text-black">
             Our Services
-          </h2>
+          </h1>
           <p className="font-roboto font-normal text-base lg:text-2xl xl:text-[26px] leading-[121%] text-black mt-4 lg:mt-0 max-w-[626px]">
             Discover the range of services designed to help your brand leave a
             lasting impression.

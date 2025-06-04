@@ -10,9 +10,9 @@ const Heroaboutus = () => {
         <div className="flex flex-wrap items-center text-center md:text-left">
           {/* LEFT SECTION */}
           <div className="w-full md:w-3/5 xl:w-[70%]">
-            <h2 className="font-Poppins font-bold text-white text-[28px] xsm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
+            <h1 className="font-Poppins font-bold text-white text-[28px] xsm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
               About Cynor Media
-            </h2>
+            </h1>
             <p className="text-white font-Poppins text-sm md:text-base leading-relaxed mt-4 xl:mt-10 max-w-2xl">
               Welcome to Cynor Media — a trusted BTL marketing company in India,
               delivering impactful campaigns. We transform bold ideas into
