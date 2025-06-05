@@ -17,7 +17,6 @@ export const metadata = {
     "Event Management",
     "Brand Activation",
     "Float Van",
-    "India",
   ],
   icons: {
     icon: "/favicon.ico",
