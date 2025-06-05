@@ -5,7 +5,6 @@ import React from "react";
 const Mapcontactus = () => {
   return (
     <>
-
       <section
         aria-label="Location map of Cynor Media in Chandigarh"
         className="pb-10 md:pb-16 lg:pb-[100px]"

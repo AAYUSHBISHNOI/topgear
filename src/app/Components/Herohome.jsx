@@ -23,11 +23,12 @@ const Herohome = () => {
         <div className="container max-w-[1440px] mx-auto px-4 py-10 xl:py-32">
           <div className="lg:flex items-center relative">
             <div className="w-full  flex flex-col justify-center items-center text-center">
-              <h1 className="font-Poppins font-semibold text-white text-[16px] md:text-3xl lg:text-[32px] xl:text-[38px] 2xl:text-[39px] leading-[1.10] max-w-[600px] lg:max-w-[950px] mb-0">
+              {/* Desktop/Tablet */}
+              <h1 className="hidden md:block font-Poppins font-semibold text-white text-[16px] md:text-3xl lg:text-[32px] xl:text-[38px] 2xl:text-[39px] leading-[1.10] max-w-[600px] lg:max-w-[950px] mb-0">
                 Welcome to Cynor Media — India’s Trusted BTL Marketing Partner
                 for Innovative On-Ground Brand Solutions.
               </h1>
-              <p className="font-Poppins font-normal text-[14px] md:text-lg text-[#dedede] leading-[1.21] mt-3 md:mt-4 xl:mt-6 max-w-[600px] lg:max-w-[730px] xl:max-w-[775px]">
+              <p className="hidden md:block font-Poppins font-normal text-[14px] md:text-lg text-[#dedede] leading-[1.21] mt-3 md:mt-4 xl:mt-6 max-w-[600px] lg:max-w-[730px] xl:max-w-[775px]">
                 Great brands don’t just advertise, they connect. With powerful
                 below-the-line marketing and all the other services that we
                 provide, we turn your ideas into memorable moments that spark
@@ -35,10 +36,21 @@ const Herohome = () => {
                 services to game-changing product launches and local market
                 activations, we help you rise above the noise.
               </p>
+
+              {/* Mobile */}
+              <h1 className="md:hidden font-Poppins font-semibold text-white text-[20px] leading-[1.2] max-w-[90%] mb-0">
+                Cynor Media — Trusted BTL Marketing Experts
+              </h1>
+              <p className="md:hidden font-Poppins font-normal text-[13px] text-[#dedede] leading-[1.4] mt-2 max-w-[95%]">
+                Cynor Media turns ideas into impact with expert float vans,
+                product launches, and local activations tailored for real
+                connections.
+              </p>
+
               <div className="mt-3 md:mt-6 xl:mt-[43px] ">
                 <button
                   onClick={handleWhatsAppClick}
-                  className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[240px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-black hover:text-white"
+                  className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-1 px-4 md:py-3 md:px-6 flex items-center justify-between w-[230px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-black hover:text-white"
                   type="button"
                 >
                   <div className="transition-all duration-1000 transform group-hover:translate-x-52">
