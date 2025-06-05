@@ -41,13 +41,13 @@ const Ourprocesshome = () => {
       aria-labelledby="process-heading"
     >
       <div className=" container max-w-[1440px] mx-auto px-4">
-        <header className="text-center flex flex-col justify-center items-center">
-          <p className="text-[#006156] font-semibold leading-[1.3] font-Poppins text-2xl md:text-3xl">
+        <header className="text-center flex flex-col justify-center items-center">  
+          <p className="text-[#006156] md:text-[#00856F] font-semibold leading-[115%] font-Poppins text-2xl md:text-5xl">
             Process
           </p>
           <h2
             id="process-heading"
-            className="text-[24px] md:text-[32px] lg:text-[40px] xl:text-[64px] font-Poppins font-semibold leading-[1.21] text-light_black text-center mt-2"
+            className="text-[24px] md:text-[32px] lg:text-[40px] xl:text-[64px] font-Poppins font-semibold leading-[1.21] text-light_black text-center"
           >
             From Vision to Impact
           </h2>
