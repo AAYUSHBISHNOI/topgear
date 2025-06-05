@@ -1,6 +1,8 @@
 "use client";
 
 import { Poppins } from "next/font/google";
+import Head from "next/head";
+import Script from "next/script"; // <-- import Script
 import Navbar from "./Common/Navbar";
 import Footer from "./Common/Footer";
 import "./globals.css";
@@ -14,7 +16,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <head>
+      <Head>
         {/* Basic Meta */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -63,20 +65,6 @@ export default function RootLayout({ children }) {
           content="https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"
         />
 
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
-            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-            f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-MFSSPQ8C');
-          `,
-          }}
-        />
-
         {/* Structured Data - LocalBusiness */}
         <script
           type="application/ld+json"
@@ -111,8 +99,8 @@ export default function RootLayout({ children }) {
                   "Friday",
                   "Saturday",
                 ],
-                opens: "09:00",
-                closes: "20:00",
+                opens: "09:00:00",
+                closes: "20:00:00",
               },
               sameAs: [
                 "https://www.facebook.com/cynormedia/",
@@ -231,9 +219,23 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-      </head>
+      </Head>
 
       <body className="antialiased">
+        {/* Google Tag Manager (script) */}
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MFSSPQ8C');`,
+          }}
+        />
+
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -241,7 +243,8 @@ export default function RootLayout({ children }) {
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
+            title="gtm-noscript"
+          />
         </noscript>
 
         <Navbar />
