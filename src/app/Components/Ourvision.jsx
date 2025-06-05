@@ -11,7 +11,7 @@ const Ourvision = () => {
       <div className=" container max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row items-center justify-between mt-10 lg:mt-0">
         {/* LEFT CONTENT */}
         <div className="w-full lg:w-2/3">
-          <h2 className="font-Montserrat  text-black text-3xl lg:text-6xl font-bold leading-tight text-center lg:text-start">
+          <h2 className="font-Poppins text-black text-3xl lg:text-6xl font-bold leading-tight text-center lg:text-start">
             Our Vision
           </h2>
 
@@ -32,7 +32,7 @@ const Ourvision = () => {
               <div className="w-full h-[228px] rounded-xl shadow-card-vision transition-shadow flex items-center justify-center">
                 <Expertised />
               </div>
-              <h3 className="font-Montserrat text-xl font-bold text-black mt-6">
+              <h3 className="font-Poppinstext-xl font-bold text-black mt-6">
                 Innovative Marketing
               </h3>
               <p className="font-Poppins text-base text-light_black mt-2">
@@ -47,7 +47,7 @@ const Ourvision = () => {
               <div className="w-full h-[228px] rounded-xl shadow-card-vision transition-shadow flex items-center justify-center">
                 <Smart />
               </div>
-              <h3 className="font-Montserrat  text-xl font-bold text-black mt-6">
+              <h3 className="font-Poppins text-xl font-bold text-black mt-6">
                 Smart Brand Engagement
               </h3>
               <p className="font-Poppins text-base text-light_black mt-2">

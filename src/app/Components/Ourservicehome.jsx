@@ -105,7 +105,7 @@ const Ourservicehome = () => {
                 </div>
               )}
               {/* Title */}
-              <h3 className="font-Montserrat text-[22px] md:text-[25px] font-medium leading-[121%] mt-5 xl:mt-[62px] text-[#0c0c0c] group-hover:text-white transition-colors duration-500">
+              <h3 className="font-Poppins text-[22px] md:text-[25px] font-medium leading-[121%] mt-5 xl:mt-[62px] text-[#0c0c0c] group-hover:text-white transition-colors duration-500">
                 {title}
               </h3>
               {/* Description */}

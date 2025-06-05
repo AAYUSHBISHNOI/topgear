@@ -108,7 +108,7 @@ const Recentshowcasehome = () => {
                   />
                 </div>
 
-                <h3 className="font-Montserrat font-semibold text-xl md:text-2xl lg:text-3xl leading-[1.21] text-light_black mt-2 lg:mt-4">
+                <h3 className="font-Poppins font-semibold text-xl md:text-2xl lg:text-3xl leading-[1.21] text-light_black mt-2 lg:mt-4">
                   {title}
                 </h3>
                 <p className="font-Poppins font-normal text-base md:text-lg leading-[1.21] text-light_black mt-1 lg:mt-2.5">

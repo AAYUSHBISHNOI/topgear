@@ -133,7 +133,7 @@ const Clientsaysforus = () => {
                     <Comma />
                   </div>
                 </div>
-                <p className="font-dm text-base lg:text-2xl text-[#0c0c0c] mt-3 lg:mt-9">
+                <p className="font-Poppins text-base lg:text-2xl text-[#0c0c0c] mt-3 lg:mt-9">
                   {feedback}
                 </p>
               </div>

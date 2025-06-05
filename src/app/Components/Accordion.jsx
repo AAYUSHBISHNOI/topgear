@@ -104,7 +104,7 @@ const Accordion = () => {
       <div className="container max-w-[1440px] px-4 mx-auto flex flex-wrap items-start lg:items-center">
         {/* Left: Accordion */}
         <div className="w-full lg:w-3/5 min-h-[930px] lg:min-h-[850px]">
-          <h2 className="font-dm text-4xl md:text-6xl xl:text-7xl font-bold uppercase text-white mb-10 text-center lg:text-left max-w-[660px]">
+          <h2 className="font-Poppins text-4xl md:text-6xl xl:text-7xl font-bold uppercase text-white mb-10 text-center lg:text-left max-w-[660px]">
             Frequently Asked <span className="text-[#64ccc5]">Questions</span>
           </h2>
           <div className="space-y-6">

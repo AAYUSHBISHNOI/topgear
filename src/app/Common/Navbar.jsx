@@ -70,7 +70,7 @@ const Navbar = () => {
                   <Link
                     href={item.path}
                     onClick={() => setShow(false)}
-                    className={`transition-all ease-in-out duration-300 font-dm font-medium text-base leading-[126%] 
+                    className={`transition-all ease-in-out duration-300 font-Poppins font-medium text-base leading-[126%] 
                       ${
                         pathname === item.path
                           ? "text-[#64cccc]"
@@ -86,7 +86,7 @@ const Navbar = () => {
             {/* CTA Button */}
             <div className="group">
               <button
-                className="font-dm hidden md:block font-medium text-lg leading-[126%] 
+                className="font-Poppins hidden md:block font-medium text-lg leading-[126%] 
                   text-black bg-[#fff] py-[12px] px-[15px] rounded-full duration-700 ease-in-out
                   group-hover:text-white group-hover:bg-[#44e6db]"
                 onClick={() =>

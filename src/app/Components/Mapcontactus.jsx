@@ -1,18 +1,10 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 
 const Mapcontactus = () => {
   return (
     <>
-      <Head>
-        <title>Find Cynor Media - Event Management Company in Chandigarh</title>
-        <meta
-          name="description"
-          content="Locate Cynor Media, a top event management company in Chandigarh. View our office location on the map and get in touch."
-        />
-      </Head>
 
       <section
         aria-label="Location map of Cynor Media in Chandigarh"
