@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand’s visibility."
         />
+        <title>Cynor Media - Below the Line Marketing Company in India</title>
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
