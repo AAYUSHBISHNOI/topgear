@@ -24,7 +24,7 @@ const Ourservicehome = () => {
 
       {/* Section Heading */}
       <div className="text-center flex flex-col justify-center items-center">
-        <p className="text-[#006156] md:text-[#00856F] font-Poppins font-semibold leading-[130%] text-2xl md:text-4xl mb-0">
+        <p className="text-[#006156] md:text-[#00856F] font-Poppins font-semibold leading-[130%] text-2xl md:text-[34px] mt-5">
           Our Services
         </p>
         <h2 className="text-base sm:text-[26px] md:text-[32px] lg:text-[40px] font-Poppins font-medium leading-[121%] text-[#353535] max-w-[690px] md:max-w-[897px]">
