@@ -21,7 +21,7 @@ const Heroourclients = () => {
               clients trust us for our creativity, commitment, and impactful
               campaign execution. Discover what sets Cynor Media apart —
               straight from what our clients say{" "}
-              <a href="/aboutus" className="text-[#64ccc5]">
+              <a href="/about-us" className="text-[#64ccc5]">
                 about us
               </a>{" "}
               .

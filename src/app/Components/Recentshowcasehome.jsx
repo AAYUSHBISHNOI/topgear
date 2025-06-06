@@ -84,7 +84,7 @@ const Recentshowcasehome = () => {
                           <CommonArrowBlack />
                         </div>
                         <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
-                          Start your Free Trial
+                          Get Started Today
                         </span>
                       </button>
                     </div>
@@ -124,13 +124,13 @@ const Recentshowcasehome = () => {
           <div className="mt-3 md:mt-6 xl:mt-[43px] ">
             <button
               onClick={handleWhatsAppClick}
-              className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[240px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-black hover:text-white"
+              className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-black text-white rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-between w-[220px] md:w-[300px] lg:w-[300px] transition-all duration-700 hover:bg-[#8F8F8F] hover:text-white"
               type="button"
             >
-              <div className="transition-all duration-1000 transform group-hover:translate-x-52">
-                <CommonArrow />
+              <div className="transition-all duration-1000 transform group-hover:translate-x-40">
+                <CommonArrowBlack />
               </div>
-              <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
+              <span className="transition-all duration-1000 transform group-hover:-translate-x-10">
                 Start your Free Trial
               </span>
             </button>

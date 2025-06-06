@@ -167,14 +167,14 @@ const Aboutushome = () => {
           <div className="mt-3 md:mt-6 xl:mt-[43px] ">
             <button
               onClick={handleWhatsAppClick}
-              className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-1 px-4 md:py-2 md:px-4 flex items-center justify-between w-[230px] md:w-[300px] lg:w-[280px] transition-all duration-700 hover:bg-black hover:text-white"
+              className="group relative overflow-hidden cursor-pointer font-Poppins text-base md:text-[20px] bg-white text-black rounded-full py-1 px-4 md:py-2 md:px-4 flex items-center justify-between w-[220px] md:w-[300px] lg:w-[280px] transition-all duration-700 hover:bg-black hover:text-white"
               type="button"
             >
-              <div className="transition-all duration-1000 transform group-hover:translate-x-52">
+              <div className="transition-all duration-1000 transform group-hover:translate-x-40 lg:group-hover:translate-x-52">
                 <CommonArrow />
               </div>
-              <span className="transition-all duration-1000 transform group-hover:-translate-x-14">
-                Start your Free Trial
+              <span className="transition-all duration-1000 transform group-hover:-translate-x-11 lg:group-hover:-translate-x-14">
+                Get Started Today
               </span>
             </button>
           </div>

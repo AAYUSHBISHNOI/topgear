@@ -101,6 +101,7 @@ const Navbar = () => {
             <button
               className="xl:hidden z-50 transition-all duration-300 ease-in-out sm:mr-[25px]"
               onClick={() => setShow(!show)}
+              aria-label={show ? "Close menu" : "Open menu"} // Accessible name here
             >
               {show ? (
                 <div className="z-20 relative">

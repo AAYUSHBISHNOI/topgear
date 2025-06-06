@@ -423,12 +423,10 @@ export const Feedback = () => {
 export const CommonArrowBlack = () => {
   return (
     <svg
-      width="45"
-      height="45"
       viewBox="0 0 45 45"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="transition-all duration-700"
+      className="transition-all duration-700 w-[30px] h-[30px] lg:w-[45px] lg:h-[45px]"
     >
       <circle
         cx="22.7779"
@@ -454,7 +452,7 @@ export const CommonArrow = () => {
       viewBox="0 0 45 45"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="transition-all duration-700 w--[35px] h-[35px] lg:w-[45px] lg:h-[45px]"
+      className="transition-all duration-700 w-[30px] h-[30px] lg:w-[45px] lg:h-[45px]"
     >
       <circle
         cx="22.7779"
