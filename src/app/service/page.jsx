@@ -1,26 +1,45 @@
-"use client";
+// ❌ Do not use "use client" here
+// ✅ Server component file (can use generateMetadata)
 
-import React from "react";
-import Campaigncards from "../Components/Campaigncards";
-import OurService from "../Components/Ourservices";
-import SEO from "../Components/SEO";
+import dynamic from "next/dynamic";
 
-const Service = () => {
-  const title = "Services - BTL Marketing & Event Management | Cynor Media";
-  const description =
-    "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.";
-  const url = "https://www.cynormedia.com/service";
-  const image = "/images/og-services.jpg";
+// Dynamically import your client components
+const OurService = dynamic(() => import("../../Components/Ourservices"), {
+  ssr: false,
+});
+const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
+  ssr: false,
+});
 
+export async function generateMetadata() {
+  return {
+    title: "Services - BTL Marketing & Event Management | Cynor Media",
+    description:
+      "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
+    openGraph: {
+      title: "Services - BTL Marketing & Event Management | Cynor Media",
+      description:
+        "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
+      url: "https://www.cynormedia.com/service",
+      images: ["/images/og-services.jpg"],
+    },
+    twitter: {
+      title: "Services - BTL Marketing & Event Management | Cynor Media",
+      description:
+        "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
+      images: ["/images/og-services.jpg"],
+    },
+    alternates: {
+      canonical: "https://www.cynormedia.com/service",
+    },
+  };
+}
+
+export default function ServicePage() {
   return (
-    <>
-      <SEO title={title} description={description} url={url} image={image} />
-      <main>
-        <OurService />
-        <Campaigncards />
-      </main>
-    </>
+    <main>
+      <OurService />
+      <Campaigncards />
+    </main>
   );
-};
-
-export default Service;
+}
