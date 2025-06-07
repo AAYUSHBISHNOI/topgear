@@ -1,7 +1,4 @@
-"use client";
-
 import React from "react";
-import Head from "next/head";
 import Heroourclients from "../Components/Heroourclients";
 import Clientwhotrustus from "../Components/Clientwhotrustus";
 import Paraourclients from "../Components/Paraourclients";
@@ -12,32 +9,43 @@ import Enoughtalks from "../Common/Enoughtalks";
 export const metadata = {
   title: "Our Clients - Trusted by Top Brands | Cynor Media",
   description:
-    "Explore the clients who trust Cynor Media for exceptional event management and BTL marketing services across India.",
+    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
   keywords: [
     "BTL marketing",
     "event management",
-    "trusted clients",
-    "Cynor Media clients",
+    "promotional campaigns",
     "branding solutions",
+    "Cynor Media",
   ],
   robots: "index, follow",
   openGraph: {
     title: "Our Clients - Trusted by Top Brands | Cynor Media",
     description:
-      "Cynor Media proudly serves top brands with impactful event management and BTL marketing solutions tailored to their business goals.",
-    type: "website",
-    url: "https://www.cynormedia.com/our-clients",
-    images: ["/images/og-our-client.jpg"],
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    url: "https://www.cynormedia.com/service",
+    images: [
+      {
+        url: "/images/og-services.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cynor Media Services",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Our Clients - Trusted by Top Brands | Cynor Media",
     description:
-      "See the organizations that count on Cynor Media to elevate their brand through expert event execution and marketing.",
-    images: ["/images/og-our-client.jpg"],
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    images: [
+      {
+        url: "/images/og-services.jpg",
+        alt: "Cynor Media Services",
+      },
+    ],
   },
   alternates: {
-    canonical: "https://www.cynormedia.com/our-clients",
+    canonical: "https://www.cynormedia.com/service",
   },
 };
 
