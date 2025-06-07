@@ -1,51 +1,50 @@
-"use client";
+ 
+import dynamic from "next/dynamic";
 
-import React from "react";
-import Head from "next/head";
-import Campaigncards from "../Components/Campaigncards";
-import OurService from "../Components/Ourservices";
+ 
+const OurService = dynamic(() => import("../../Components/Ourservices"), {
+  ssr: false,
+});
+const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
+  ssr: false,
+});
 
-const Service = () => {
-  return (
-    <>
-      <Head>
-        <title>Services - BTL Marketing & Event Management | Cynor Media</title>
-        <meta
-          name="description"
-          content="Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions."
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Cynor Media" />
-        <link rel="canonical" href="https://www.cynormedia.com/service" />
-        <meta
-          property="og:title"
-          content="Services - BTL Marketing & Event Management | Cynor Media"
-        />
-        <meta
-          property="og:description"
-          content="Cynor Media delivers expert event management and BTL services that drive impact, awareness, and engagement for top brands."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.cynormedia.com/service" />
-        <meta property="og:image" content="/images/og-services.jpg" />{" "}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Services - BTL Marketing & Event Management | Cynor Media"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore Cynor Media's expert services for impactful BTL campaigns and professional event execution."
-        />
-        <meta name="twitter:image" content="/images/og-services.jpg" />
-      </Head>
-
-      <main>
-        <OurService />
-        <Campaigncards />
-      </main>
-    </>
-  );
+export const metadata = {
+  title: "BTL Marketing & Event Management Services | Cynor Media",
+  description:
+    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+  keywords: [
+    "BTL marketing",
+    "event management",
+    "promotional campaigns",
+    "branding solutions",
+    "Cynor Media",
+  ],
+  robots: "index, follow",
+  openGraph: {
+    title: "BTL Marketing & Event Management Services | Cynor Media",
+    description:
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    url: "https://www.cynormedia.com/service",
+    images: ["/images/og-services.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BTL Marketing & Event Management Services | Cynor Media",
+    description:
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    images: ["/images/og-services.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.cynormedia.com/service",
+  },
 };
 
-export default Service;
+export default function ServicePage() {
+  return (
+    <main>
+      <OurService />
+      <Campaigncards />
+    </main>
+  );
+}
