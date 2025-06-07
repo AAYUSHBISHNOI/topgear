@@ -1,3 +1,6 @@
+"use client";
+
+
 import Heroaboutus from "../../Components/Heroaboutus";
 import Ourvision from "../../Components/Ourvision";
 import Experienceaboutus from "../../Components/Experinceaboutus";

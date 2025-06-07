@@ -1,9 +1,12 @@
-import Herohome from "../Components/Herohome";
-import Ourservicehome from "../Components/Ourservicehome";
+"use client";
+
+
 import Aboutushome from "../Components/Aboutushome";
-import Ourprocesshome from "../Components/Ourprocesshome";
-import Recentshowcasehome from "../Components/Recentshowcasehome";
 import Founderqoute from "../Components/Founderquote";
+import Herohome from "../Components/Herohome";
+import Ourprocesshome from "../Components/Ourprocesshome";
+import Ourservicehome from "../Components/Ourservicehome";
+import Recentshowcasehome from "../Components/Recentshowcasehome";
 
 export const metadata = {
   title: "Event Management & BTL Marketing Company | Cynor Media",

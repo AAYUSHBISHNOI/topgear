@@ -1,9 +1,12 @@
-import Heroourclients from "../Components/Heroourclients";
+"use client";
+
+
+import Enoughtalks from "../Common/Enoughtalks";
+import Accordion from "../Components/Accordion";
 import Clientwhotrustus from "../Components/Clientwhotrustus";
+import Heroourclients from "../Components/Heroourclients";
 import Paraourclients from "../Components/Paraourclients";
 import Wallofreviews from "../Components/Wallofreviews";
-import Accordion from "../Components/Accordion";
-import Enoughtalks from "../Common/Enoughtalks";
 
 export const metadata = {
   title: "Our Clients - Trusted by Top Brands | Cynor Media",
