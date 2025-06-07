@@ -44,7 +44,7 @@ export const metadata = {
   },
 };
 
-export default function Service() {
+export default function service() {
   return (
     <main>
       <OurService />

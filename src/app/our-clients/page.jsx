@@ -48,7 +48,7 @@ export const metadata = {
   },
 };
 
-export default function OurClient() {
+export default function ourclient() {
   return (
     <main>
       <Heroourclients />

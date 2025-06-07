@@ -49,7 +49,7 @@ export const metadata = {
   },
 };
 
-export default function AboutUsPage() {
+export default function aboutus() {
   return (
     <main>
       <Heroaboutus />

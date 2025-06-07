@@ -1,6 +1,3 @@
-"use client";
-
-
 import LetsTalkContactUs from "../../Components/Letstalkcontactus";
 import Mapcontactus from "../../Components/Mapcontactus";
 
@@ -27,7 +24,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.cynormedia.com/images/og-contact.jpg", // Make sure this image exists
+        url: "https://www.cynormedia.com/images/og-contact.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Cynor Media",
@@ -39,11 +36,16 @@ export const metadata = {
     title: "Contact BTL Marketing Experts India | Cynor Media",
     description:
       "Get in touch with Cynor Media for your next marketing or event campaign.",
-    images: ["https://www.cynormedia.com/images/og-contact.jpg"],
+    images: [
+      {
+        url: "https://www.cynormedia.com/images/og-contact.jpg",
+        alt: "Contact Cynor Media",
+      },
+    ],
   },
 };
 
-export default function ContactUs() {
+export default function contactus() {
   return (
     <main className="bg-[#fbfbfb]">
       <LetsTalkContactUs />
