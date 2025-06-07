@@ -8,7 +8,12 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-
+  title: {
+    template: "%s | Cynor Media",
+    default: "Cynor Media - BTL Marketing Experts in India",
+  },
+  description:
+    "Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand’s visibility.",
   keywords: [
     "Cynor Media",
     "BTL Marketing",
@@ -21,7 +26,7 @@ export const metadata = {
   },
   metadataBase: new URL("https://www.cynormedia.com"),
   openGraph: {
-    title: "Cynor Media - Below the line Marketing Company in India",
+    title: "Cynor Media - BTL Marketing Experts in India",
     description:
       "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
     url: "https://www.cynormedia.com",
@@ -37,7 +42,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cynor Media - Below the line Marketing Company in India",
+    title: "Cynor Media - BTL Marketing Experts in India",
     description:
       "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
     images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],

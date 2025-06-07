@@ -1,48 +1,25 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import Campaigncards from "../Components/Campaigncards";
 import OurService from "../Components/Ourservices";
+import { metadata } from "next";
+
+export const metadata = {
+  title: {
+    template: "%s | Cynor Media",
+    absolute: "Cynor Media - BTL Marketing Experts in India",
+  },
+  description:
+    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+  keywords:
+    "BTL marketing, event management, promotional campaigns, branding solutions, Cynor Media",
+  robots: "index, follow",
+};
 
 const Service = () => {
   return (
     <>
-      <Head>
-        <title>Services - BTL Marketing & Event Management | Cynor Media</title>
-        <meta
-          name="description"
-          content="Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions."
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Cynor Media" />
-        <link rel="canonical" href="https://www.cynormedia.com/service" />
-        {/* Open Graph */}
-        <meta
-          property="og:title"
-          content="Services - BTL Marketing & Event Management | Cynor Media"
-        />
-        <meta
-          property="og:description"
-          content="Cynor Media delivers expert event management and BTL services that drive impact, awareness, and engagement for top brands."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.cynormedia.com/service" />
-        <meta property="og:image" content="/images/og-services.jpg" />{" "}
-        {/* Replace with actual image path */}
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Services - BTL Marketing & Event Management | Cynor Media"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore Cynor Media's expert services for impactful BTL campaigns and professional event execution."
-        />
-        <meta name="twitter:image" content="/images/og-services.jpg" />
-      </Head>
-
       <main>
         <OurService />
         <Campaigncards />
