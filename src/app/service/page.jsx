@@ -1,7 +1,8 @@
- 
+// app/service/page.js
+
 import dynamic from "next/dynamic";
 
- 
+// ✅ These are client components but dynamically imported (allowed in server files)
 const OurService = dynamic(() => import("../../Components/Ourservices"), {
   ssr: false,
 });
@@ -9,7 +10,7 @@ const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
   ssr: false,
 });
 
- 
+// ✅ This will now work correctly because there’s NO "use client"
 export async function generateMetadata() {
   return {
     title: "Services - BTL Marketing & Event Management | Cynor Media",
@@ -34,6 +35,7 @@ export async function generateMetadata() {
   };
 }
 
+// ✅ No "use client" here
 export default function ServicePage() {
   return (
     <main>
