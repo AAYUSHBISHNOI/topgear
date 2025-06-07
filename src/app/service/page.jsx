@@ -2,7 +2,7 @@ import Campaigncards from "../Components/Campaigncards";
 import OurService from "../Components/Ourservices";
 
 export const metadata = {
-  title: "BTL Marketing & Event Management Services | Cynor Media",
+  title: "BTL Marketing & Event Management Services", // ✅ No "| Cynor Media"
   description:
     "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
   keywords: [
@@ -14,7 +14,7 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "BTL Marketing & Event Management Services | Cynor Media",
+    title: "BTL Marketing & Event Management Services",
     description:
       "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
     url: "https://www.cynormedia.com/service",
@@ -22,7 +22,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BTL Marketing & Event Management Services | Cynor Media",
+    title: "BTL Marketing & Event Management Services",
     description:
       "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
     images: ["/images/og-services.jpg"],
@@ -31,7 +31,6 @@ export const metadata = {
     canonical: "https://www.cynormedia.com/service",
   },
 };
-
 export default function service() {
   return (
     <main>
