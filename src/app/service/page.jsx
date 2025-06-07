@@ -1,7 +1,7 @@
-// app/service/page.js
+ 
 import dynamic from "next/dynamic";
 
-// Dynamically load client components
+ 
 const OurService = dynamic(() => import("../../Components/Ourservices"), {
   ssr: false,
 });
@@ -9,7 +9,7 @@ const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
   ssr: false,
 });
 
-// ✅ Proper SEO metadata in App Router
+ 
 export async function generateMetadata() {
   return {
     title: "Services - BTL Marketing & Event Management | Cynor Media",
