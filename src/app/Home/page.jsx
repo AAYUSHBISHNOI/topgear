@@ -1,6 +1,3 @@
-
-
-
 import Aboutushome from "../Components/Aboutushome";
 import Founderqoute from "../Components/Founderquote";
 import Herohome from "../Components/Herohome";

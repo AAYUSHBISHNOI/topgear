@@ -1,12 +1,10 @@
-// src/app/about-us/page.jsx
-
-import Heroaboutus from "../../Components/Heroaboutus";
-import Ourvision from "../../Components/Ourvision";
-import Experienceaboutus from "../../Components/Experinceaboutus";
-import Customeraboutus from "../../Components/Customeraboutus";
-import WhyChooseUs from "../../Components/Whychooseusaboutus";
-import Ourmissionaboutus from "../../Components/Ourmissionaboutus";
-import Enoughtalks from "../../Common/Enoughtalks";
+import Enoughtalks from "../Common/Enoughtalks";
+import Customeraboutus from "../Components/Customeraboutus";
+import Experienceaboutus from "../Components/Experinceaboutus";
+import Heroaboutus from "../Components/Heroaboutus";
+import Ourmissionaboutus from "../Components/Ourmissionaboutus";
+import Ourvision from "../Components/Ourvision";
+import WhyChooseUs from "../Components/Whychooseusaboutus";
 
 export const metadata = {
   title: "About Us - BTL Marketing Experts in India | Cynor Media",
