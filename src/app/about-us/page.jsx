@@ -1,6 +1,3 @@
-"use client";
-
-import Head from "next/head";
 import Heroaboutus from "../Components/Heroaboutus";
 import Ourvision from "../Components/Ourvision";
 import Experienceaboutus from "../Components/Experinceaboutus";
@@ -9,44 +6,52 @@ import WhyChooseUs from "../Components/Whychooseusaboutus";
 import Ourmissionaboutus from "../Components/Ourmissionaboutus";
 import Enoughtalks from "../Common/Enoughtalks";
 
+export const metadata = {
+  title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+  description:
+    "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
+  keywords: [
+    "BTL marketing",
+    "event management",
+    "promotional campaigns",
+    "branding solutions",
+    "Cynor Media",
+  ],
+  robots: "index, follow",
+  openGraph: {
+    title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+    description:
+      "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
+    url: "https://www.cynormedia.com/service",
+    images: [
+      {
+        url: "/images/og-services.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cynor Media Services",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+    description:
+      "Cynor Media offers expert BTL marketing services and event management solutions across India and Australia. Elevate your brand with our promotional campaigns and branding expertise.",
+    images: [
+      {
+        url: "/images/og-services.jpg",
+        alt: "Cynor Media Services",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.cynormedia.com/service",
+  },
+};
+
 const AboutUs = () => {
   return (
     <>
-      <Head>
-        <title>About Us - BTL Marketing Experts in India | Cynor Media</title>
-        <meta
-          name="description"
-          content="Get to know Cynor Media — India’s leading event management and BTL marketing company with a proven track record in product launches, float vans, exhibitions, and portable displays."
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Cynor Media" />
-        <link rel="canonical" href="https://www.cynormedia.com/about-us" />
-        {/* Open Graph for Facebook */}
-        <meta
-          property="og:title"
-          content="About Us - BTL Marketing Experts in India | Cynor Media"
-        />
-        <meta
-          property="og:description"
-          content="Learn more about Cynor Media — your trusted partner for innovative and impactful marketing and event solutions."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.cynormedia.com/about-us" />
-        <meta property="og:image" content="/images/og-about.jpg" />{" "}
-        {/* Replace with actual OG image path */}
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="About Us - BTL Marketing Experts in India | Cynor Media"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore Cynor Media’s journey, mission, and values that drive success in event management and BTL marketing."
-        />
-        <meta name="twitter:image" content="/images/og-about.jpg" />
-      </Head>
-
       <main>
         <Heroaboutus />
         <Ourvision />
