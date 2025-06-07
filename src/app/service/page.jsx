@@ -1,46 +1,25 @@
-// app/service/page.js
+"use client";
 
-import dynamic from "next/dynamic";
+import React from "react";
+import Campaigncards from "../Components/Campaigncards";
+import OurService from "../Components/Ourservices";
 
-// ✅ These are client components but dynamically imported (allowed in server files)
-const OurService = dynamic(() => import("../../Components/Ourservices"), {
-  ssr: false,
-});
-const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
-  ssr: false,
-});
+const Service = () => {
+  const title = "Services - BTL Marketing & Event Management | Cynor Media";
+  const description =
+    "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.";
+  const url = "https://www.cynormedia.com/service";
+  const image = "/images/og-services.jpg";
 
-// ✅ This will now work correctly because there’s NO "use client"
-export async function generateMetadata() {
-  return {
-    title: "Services - BTL Marketing & Event Management | Cynor Media",
-    description:
-      "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
-    openGraph: {
-      title: "Services - BTL Marketing & Event Management | Cynor Media",
-      description:
-        "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
-      url: "https://www.cynormedia.com/service",
-      images: ["/images/og-services.jpg"],
-    },
-    twitter: {
-      title: "Services - BTL Marketing & Event Management | Cynor Media",
-      description:
-        "Discover Cynor Media's top-notch services in BTL marketing, event management, exhibitions, portable displays, and float van promotions.",
-      images: ["/images/og-services.jpg"],
-    },
-    alternates: {
-      canonical: "https://www.cynormedia.com/service",
-    },
-  };
-}
-
-// ✅ No "use client" here
-export default function ServicePage() {
   return (
-    <main>
-      <OurService />
-      <Campaigncards />
-    </main>
+    <>
+      <SEO title={title} description={description} url={url} image={image} />
+      <main>
+        <OurService />
+        <Campaigncards />
+      </main>
+    </>
   );
-}
+};
+
+export default Service;
