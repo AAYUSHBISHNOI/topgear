@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: "BTL Marketing & Event Management Services | Cynor Media",
     description:
-      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+      "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
     url: "https://www.cynormedia.com/service",
     images: ["/images/og-services.jpg"],
   },
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "BTL Marketing & Event Management Services | Cynor Media",
     description:
-      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+      "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
     images: ["/images/og-services.jpg"],
   },
   alternates: {

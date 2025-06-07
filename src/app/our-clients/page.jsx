@@ -9,7 +9,7 @@ import Enoughtalks from "../Common/Enoughtalks";
 export const metadata = {
   title: "Our Clients - Trusted by Top Brands | Cynor Media",
   description:
-    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India",
   keywords: [
     "BTL marketing",
     "event management",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Our Clients - Trusted by Top Brands | Cynor Media",
     description:
-      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India",
     url: "https://www.cynormedia.com/service",
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Our Clients - Trusted by Top Brands | Cynor Media",
     description:
-      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+      "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India",
     images: [
       {
         url: "/images/og-services.jpg",
