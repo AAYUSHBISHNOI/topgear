@@ -1,13 +1,5 @@
- 
-import dynamic from "next/dynamic";
-
- 
-const OurService = dynamic(() => import("../../Components/Ourservices"), {
-  ssr: false,
-});
-const Campaigncards = dynamic(() => import("../../Components/Campaigncards"), {
-  ssr: false,
-});
+import Campaigncards from "../Components/Campaigncards";
+import OurService from "../Components/Ourservices";
 
 export const metadata = {
   title: "BTL Marketing & Event Management Services | Cynor Media",
