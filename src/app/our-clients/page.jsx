@@ -9,8 +9,6 @@ import Wallofreviews from "../Components/Wallofreviews";
 import Accordion from "../Components/Accordion";
 import Enoughtalks from "../Common/Enoughtalks";
 
-
-
 export const metadata = {
   title: "Our Clients - Trusted by Top Brands | Cynor Media",
   description:
@@ -45,8 +43,7 @@ export const metadata = {
 
 const OurClient = () => {
   return (
-    <> 
-
+    <>
       <main>
         <Heroourclients />
         <Clientwhotrustus />
