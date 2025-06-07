@@ -8,6 +8,8 @@ export default {
         destination: '/about-us',
         permanent: true,
       },
+
+      
     ];
   },
 };
