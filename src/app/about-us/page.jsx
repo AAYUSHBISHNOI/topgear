@@ -1,15 +1,15 @@
 "use client";
 
 import Head from "next/head";
-import Heroaboutus from "../../components/Heroaboutus";
-import Ourvision from "../../components/Ourvision";
-import Experienceaboutus from "../../components/Experienceaboutus";
-import Customeraboutus from "../../components/Customeraboutus";
-import WhyChooseUs from "../../components/WhyChooseUsAboutUs";
-import Ourmissionaboutus from "../../components/Ourmissionaboutus";
-import Enoughtalks from "../../common/Enoughtalks";
+import Heroaboutus from "../Components/Heroaboutus";
+import Ourvision from "../Components/Ourvision";
+import Experienceaboutus from "../Components/Experinceaboutus";
+import Customeraboutus from "../Components/Customeraboutus";
+import WhyChooseUs from "../Components/Whychooseusaboutus";
+import Ourmissionaboutus from "../Components/Ourmissionaboutus";
+import Enoughtalks from "../Common/Enoughtalks";
 
-export default function AboutUs() {
+const AboutUs = () => {
   return (
     <>
       <Head>
@@ -21,7 +21,7 @@ export default function AboutUs() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Cynor Media" />
         <link rel="canonical" href="https://www.cynormedia.com/about-us" />
-        {/* Open Graph */}
+        {/* Open Graph for Facebook */}
         <meta
           property="og:title"
           content="About Us - BTL Marketing Experts in India | Cynor Media"
@@ -32,10 +32,8 @@ export default function AboutUs() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.cynormedia.com/about-us" />
-        <meta
-          property="og:image"
-          content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png"
-        />
+        <meta property="og:image" content="/images/og-about.jpg" />{" "}
+        {/* Replace with actual OG image path */}
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -46,10 +44,7 @@ export default function AboutUs() {
           name="twitter:description"
           content="Explore Cynor Media’s journey, mission, and values that drive success in event management and BTL marketing."
         />
-        <meta
-          name="twitter:image"
-          content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png"
-        />
+        <meta name="twitter:image" content="/images/og-about.jpg" />
       </Head>
 
       <main>
@@ -63,4 +58,6 @@ export default function AboutUs() {
       </main>
     </>
   );
-}
+};
+
+export default AboutUs;

@@ -1,61 +1,59 @@
-import Aboutushome from "../Components/Aboutushome";
-import Founderqoute from "../Components/Founderquote";
-import Herohome from "../Components/Herohome";
-import Ourprocesshome from "../Components/Ourprocesshome";
-import Ourservicehome from "../Components/Ourservicehome";
-import Recentshowcasehome from "../Components/Recentshowcasehome";
+"use client";
 
-export const metadata = {
-  title: "Event Management & BTL Marketing Company | Cynor Media",
-  description:
-    "Cynor Media is a leading event management and BTL marketing agency in India, offering float vans, product launch services, exhibitions, portable displays, and more.",
-  keywords: [
-    "Event Management",
-    "BTL Marketing India",
-    "Float Van Services",
-    "Product Launch Events",
-    "Exhibitions",
-    "Portable Displays",
-    "Cynor Media",
-  ],
-  robots: "index, follow",
-  authors: [{ name: "Cynor Media", url: "https://www.cynormedia.com" }],
-  alternates: {
-    canonical: "https://www.cynormedia.com/",
-  },
-  openGraph: {
-    title: "Event Management & BTL Marketing Company | Cynor Media",
-    description:
-      "Explore Cynor Media's innovative event management and marketing services tailored for impactful brand activations across India.",
-    url: "https://www.cynormedia.com/",
-    type: "website",
-    images: [
-      {
-        url: "https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png", // Ensure this image exists
-        width: 1200,
-        height: 630,
-        alt: "Cynor Media Event Management",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Event Management & BTL Marketing Company | Cynor Media",
-    description:
-      "Get in touch with Cynor Media for expert marketing, float vans, and promotional event solutions.",
-    images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],
-  },
+import React from "react";
+import Head from "next/head";
+import LetsTalkContactUs from "../Components/Letstalkcontactus";
+import Mapcontactus from "../Components/Mapcontactus";
+
+const ContactUs = () => {
+  return (
+    <>
+      <Head>
+        <title>Contact BTL Marketing Experts India | Cynor Media</title>
+        <meta
+          name="description"
+          content="Get in touch with Cynor Media for event management, BTL marketing, and promotional campaigns across India and Australia."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Cynor Media" />
+        {/* Open Graph / Facebook */}
+        <meta
+          property="og:title"
+          content="Contact BTL Marketing Experts India | Cynor Media"
+        />
+        <meta
+          property="og:description"
+          content="Contact Cynor Media for expert event planning, marketing, and branding solutions."
+        />
+        <meta property="og:image" content="/images/og-contact.jpg" />{" "}
+        {/* Replace with your real image path */}
+        <meta
+          property="og:url"
+          content="https://www.cynormedia.com/contact-us"
+        />{" "}
+        {/* Update to real URL */}
+        <meta property="og:type" content="website" />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Contact BTL Marketing Experts India | Cynor Media"
+        />
+        <meta
+          name="twitter:description"
+          content="Get in touch with Cynor Media for your next marketing or event campaign."
+        />
+        <meta name="twitter:image" content="/images/og-contact.jpg" />{" "}
+        {/* Same as above */}
+        <link rel="canonical" href="https://www.cynormedia.com/contact-us" />
+      </Head>
+
+      <main className="bg-[#fbfbfb]">
+        <LetsTalkContactUs />
+        <Mapcontactus />
+      </main>
+    </>
+  );
 };
 
-export default function home() {
-  return (
-    <main>
-      <Herohome />
-      <Ourservicehome />
-      <Aboutushome />
-      <Ourprocesshome />
-      <Recentshowcasehome />
-      <Founderqoute />
-    </main>
-  );
-}
+export default ContactUs;
