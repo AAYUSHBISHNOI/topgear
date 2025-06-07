@@ -1,4 +1,3 @@
-// app/layout.js
 import { Poppins } from "next/font/google";
 import RootLayoutClient from "./RootLayoutClient";
 
@@ -9,6 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+
   keywords: [
     "Cynor Media",
     "BTL Marketing",
@@ -20,6 +20,28 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   metadataBase: new URL("https://www.cynormedia.com"),
+  openGraph: {
+    title: "Cynor Media - Below the line Marketing Company in India",
+    description:
+      "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
+    url: "https://www.cynormedia.com",
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png",
+        width: 1200,
+        height: 630,
+        alt: "Cynor Media",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cynor Media - Below the line Marketing Company in India",
+    description:
+      "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
+    images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
