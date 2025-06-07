@@ -32,7 +32,10 @@ export default function AboutUs() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.cynormedia.com/about-us" />
-        <meta property="og:image" content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png" />
+        <meta
+          property="og:image"
+          content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png"
+        />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -43,7 +46,10 @@ export default function AboutUs() {
           name="twitter:description"
           content="Explore Cynor Media’s journey, mission, and values that drive success in event management and BTL marketing."
         />
-        <meta name="twitter:image" content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png" />
+        <meta
+          name="twitter:image"
+          content="https://thumbs2.imgbox.com/fe/be/amx1SmBb_t.png"
+        />
       </Head>
 
       <main>
