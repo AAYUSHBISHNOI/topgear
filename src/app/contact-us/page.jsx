@@ -1,55 +1,61 @@
-import LetsTalkContactUs from "../../Components/Letstalkcontactus";
-import Mapcontactus from "../../Components/Mapcontactus";
+import Aboutushome from "../Components/Aboutushome";
+import Founderqoute from "../Components/Founderquote";
+import Herohome from "../Components/Herohome";
+import Ourprocesshome from "../Components/Ourprocesshome";
+import Ourservicehome from "../Components/Ourservicehome";
+import Recentshowcasehome from "../Components/Recentshowcasehome";
 
 export const metadata = {
-  title: "Contact BTL Marketing Experts India | Cynor Media",
+  title: "Event Management & BTL Marketing Company | Cynor Media",
   description:
-    "Get in touch with Cynor Media for event management, BTL marketing, and promotional campaigns across India and Australia.",
+    "Cynor Media is a leading event management and BTL marketing agency in India, offering float vans, product launch services, exhibitions, portable displays, and more.",
   keywords: [
-    "Contact Cynor Media",
-    "BTL Marketing Contact",
-    "Event Management India",
-    "Marketing Campaigns India",
+    "Event Management",
+    "BTL Marketing India",
+    "Float Van Services",
+    "Product Launch Events",
+    "Exhibitions",
+    "Portable Displays",
+    "Cynor Media",
   ],
   robots: "index, follow",
   authors: [{ name: "Cynor Media", url: "https://www.cynormedia.com" }],
   alternates: {
-    canonical: "https://www.cynormedia.com/contact-us",
+    canonical: "https://www.cynormedia.com/",
   },
   openGraph: {
-    title: "Contact BTL Marketing Experts India | Cynor Media",
+    title: "Event Management & BTL Marketing Company | Cynor Media",
     description:
-      "Contact Cynor Media for expert event planning, marketing, and branding solutions.",
-    url: "https://www.cynormedia.com/contact-us",
+      "Explore Cynor Media's innovative event management and marketing services tailored for impactful brand activations across India.",
+    url: "https://www.cynormedia.com/",
     type: "website",
     images: [
       {
-        url: "https://thumbs2.imgbox.com/e1/32/pwedpBYM_t.png",
+        url: "https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png", // Ensure this image exists
         width: 1200,
         height: 630,
-        alt: "Contact Cynor Media",
+        alt: "Cynor Media Event Management",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact BTL Marketing Experts India | Cynor Media",
+    title: "Event Management & BTL Marketing Company | Cynor Media",
     description:
-      "Get in touch with Cynor Media for your next marketing or event campaign.",
-    images: [
-      {
-        url: "https://thumbs2.imgbox.com/e1/32/pwedpBYM_t.png",
-        alt: "Contact Cynor Media",
-      },
-    ],
+      "Get in touch with Cynor Media for expert marketing, float vans, and promotional event solutions.",
+    images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],
   },
 };
 
-export default function contactus() {
+export default function home() {
   return (
-    <main className="bg-[#fbfbfb]">
-      <LetsTalkContactUs />
-      <Mapcontactus />
+    <main>
+      <Herohome />
+      <Ourservicehome />
+      <Aboutushome />
+      <Ourprocesshome />
+      <Recentshowcasehome />
+      <Founderqoute />
     </main>
   );
 }
