@@ -32,7 +32,7 @@ export const metadata = {
   },
 };
 
-export default function ServicePage() {
+export default function service() {
   return (
     <main>
       <OurService />

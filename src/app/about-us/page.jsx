@@ -7,7 +7,7 @@ import Ourmissionaboutus from "../Components/Ourmissionaboutus";
 import Enoughtalks from "../Common/Enoughtalks";
 
 export const metadata = {
-  title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+  title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
   description:
     "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+    title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
     description:
       "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
     url: "https://www.cynormedia.com/service",
@@ -34,7 +34,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us - Cynor Media | Expert BTL Marketing & Event Management",
+    title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
     description:
       "Cynor Media offers expert BTL marketing services and event management solutions across India and Australia. Elevate your brand with our promotional campaigns and branding expertise.",
     images: [
