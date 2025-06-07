@@ -1,4 +1,4 @@
-"use client";
+
 
 
 import Aboutushome from "../Components/Aboutushome";
@@ -34,7 +34,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.cynormedia.com/images/og-home.jpg", // Ensure this image exists
+        url: "https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png", // Ensure this image exists
         width: 1200,
         height: 630,
         alt: "Cynor Media Event Management",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "Event Management & BTL Marketing Company | Cynor Media",
     description:
       "Get in touch with Cynor Media for expert marketing, float vans, and promotional event solutions.",
-    images: ["https://www.cynormedia.com/images/og-home.jpg"],
+    images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],
   },
 };
 

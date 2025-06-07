@@ -8,9 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Cynor Media - Below the Line Marketing Company in India",
-  description:
-    "Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand’s visibility.",
+  // fallback meta only
   keywords: [
     "Cynor Media",
     "BTL Marketing",
@@ -21,11 +19,10 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  metadataBase: new URL("https://www.cynormedia.com"),
+  metadataBase: "https://www.cynormedia.com",
   openGraph: {
-    title: "Cynor Media - Below the line Marketing Company in India",
-    description:
-      "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
+    title: "Cynor Media",
+    description: "Leading BTL marketing and event solutions across India.",
     url: "https://www.cynormedia.com",
     images: [
       {
@@ -39,10 +36,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cynor Media - Below the line Marketing Company in India",
-    description:
-      "From activations to targeted promotions, boost your brand’s visibility with Cynor Media.",
-    images: ["https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png"],
+    title: "Cynor Media",
+    description: "BTL marketing agency for brand visibility and events.",
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/df/42/aaVg3uNj_t.png",
+        alt: "Cynor Media",
+      },
+    ],
   },
 };
 
