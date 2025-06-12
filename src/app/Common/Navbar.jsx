@@ -41,7 +41,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#0c0c0c]">
       <div className="overflow-hidden">
         <div className="mx-auto container max-w-[1440px] px-[20px] mt-2">
           <div className="flex items-center justify-between h-[50px] md:h-[100px] z-50 relative">

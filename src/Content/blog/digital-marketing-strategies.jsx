@@ -2,11 +2,13 @@ export default function DigitalMarketingStrategies() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 prose prose-indigo scroll-smooth">
       <h1>Digital Marketing Strategies</h1>
-      <p className="text-sm text-gray-500 mb-6">2025-06-09</p>
+      <p className="text-sm text-gray-500 mb-6 font-Poppins">2025-06-09</p>
 
       <section>
-        <h3 id="what-is-digital-marketing">What is Digital Marketing?</h3>
-        <p>
+        <h3 id="what-is-digital-marketing font-Poppins">
+          What is Digital Marketing?
+        </h3>
+        <p className="font-Poppins">
           Digital marketing encompasses all marketing efforts that use the
           internet or an electronic device. Businesses leverage digital channels
           such as search engines, social media, email, and websites to connect

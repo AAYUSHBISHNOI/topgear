@@ -37,9 +37,9 @@ const Footer = () => {
                 alt="Cynor Media Logo"
                 width={100}
                 height={80}
-                className="max-w-[60px] lg:max-w-[100px]"
+                className="max-w-[60px] lg:max-w-[90px]"
               />
-              <p className="font-Poppins font-semibold text-[26px] md:text-[20px] text-white mb-0">
+              <p className="font-Poppins font-semibold text-[26px] md:text-[26px] xl:text-4xl text-white mb-0">
                 Cynor Media
               </p>
             </Link>

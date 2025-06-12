@@ -29,13 +29,13 @@ export default function BlogList() {
   return (
     <section className="bg-black text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-12">
+        <h1 className="text-4xl font-bold text-center mb-12 font-Poppins">
           Featured Blog Posts
         </h1>
 
         {/* Featured Card */}
         {blogList.length > 0 && (
-          <div className="mb-16 bg-white text-black rounded-2xl overflow-hidden shadow-xl transition-transform hover:scale-[1.02] duration-300">
+          <div className="mb-16 bg-white text-black font-Poppins rounded-2xl overflow-hidden shadow-xl transition-transform hover:scale-[1.02] duration-300">
             <div className="md:flex">
               <div className="md:w-1/2">
                 <Image
@@ -47,13 +47,15 @@ export default function BlogList() {
                 />
               </div>
               <div className="p-8 md:w-1/2">
-                <h2 className="text-3xl font-bold mb-4">{blogList[0].title}</h2>
-                <p className="mb-6 text-gray-700 text-lg">
+                <h2 className="text-3xl font-bold mb-4 font-Poppins">
+                  {blogList[0].title}
+                </h2>
+                <p className="mb-6 text-gray-700 text-lg font-Poppins">
                   {blogList[0].description}
                 </p>
                 <Link
                   href={`/blog/${blogList[0].slug}`}
-                  className="inline-block bg-[#64CCC5] text-black font-semibold px-6 py-3 rounded-xl hover:bg-opacity-80 transition"
+                  className="inline-block bg-[#64CCC5] font-Poppins text-white font-semibold px-6 py-3 rounded-xl hover:bg-opacity-80 transition"
                 >
                   Read More →
                 </Link>
@@ -67,7 +69,7 @@ export default function BlogList() {
           {blogList.slice(1).map(({ slug, title, description, image }) => (
             <div
               key={slug}
-              className="bg-white text-black rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-2xl duration-300"
+              className="bg-white text-black font-Poppins rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-2xl duration-300"
             >
               <Image
                 src={image}
@@ -77,13 +79,13 @@ export default function BlogList() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-2 text-[#0f172a]">
+                <h3 className="text-2xl font-Poppins font-semibold mb-2 text-[#0f172a]">
                   {title}
                 </h3>
-                <p className="mb-4 text-gray-700">{description}</p>
+                <p className="mb-4 text-gray-700 font-Poppins">{description}</p>
                 <Link
                   href={`/blog/${slug}`}
-                  className="inline-block bg-[#64CCC5] text-black font-medium px-4 py-2 rounded-lg hover:bg-opacity-80 transition"
+                  className="inline-block bg-[#64CCC5] font-Poppins text-white font-medium px-4 py-2 rounded-lg hover:bg-opacity-80 transition"
                 >
                   Read More →
                 </Link>
