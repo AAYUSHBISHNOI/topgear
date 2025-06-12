@@ -14,6 +14,7 @@ const Navbar = () => {
     { name: "About Us", path: "/about-us" },
     { name: "Our Clients", path: "/our-clients" },
     { name: "Contact Us", path: "/contact-us" },
+    { name: "Blog", path: "/blog" },
   ];
 
   useEffect(() => {

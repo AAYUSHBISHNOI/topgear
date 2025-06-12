@@ -2,7 +2,7 @@ import Campaigncards from "../Components/Campaigncards";
 import OurService from "../Components/Ourservices";
 
 export const metadata = {
-  title: "BTL Marketing & Event Management Services", // ✅ No "| Cynor Media"
+  title: "BTL Marketing & Event Management Services",
   description:
     "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
   keywords: [
