@@ -7,22 +7,18 @@ import { Facebook, Instagram, Linkdin } from "../Common/Icon";
 
 const Footer = () => {
   const logos = [
-    {
-      src: "/Images/Home/Svg/Tata-Logo.svg",
-      alt: "Tata Logo",
-    },
-    {
-      src: "/Images/Home/Svg/Hero-logo.svg",
-      alt: "Hero Logo",
-    },
-    {
-      src: "/Images/Home/Svg/Epson.svg",
-      alt: "Epson Logo",
-    },
-    {
-      src: "/Images/Home/Svg/Kubota.svg",
-      alt: "Kubota Logo",
-    },
+    { src: "/Images/Home/Svg/Tata-Logo.svg", alt: "Tata Logo" },
+    { src: "/Images/Home/Svg/Hero-logo.svg", alt: "Hero Logo" },
+    { src: "/Images/Home/Svg/Epson.svg", alt: "Epson Logo" },
+    { src: "/Images/Home/Svg/Kubota.svg", alt: "Kubota Logo" },
+  ];
+
+  const services = [
+    { name: "Float Van Campaign", path: "/service/float-van-campaign" },
+    { name: "Market Setup", path: "/service/market-setup" },
+    { name: "Digital Marketing", path: "/service/digital-marketing" },
+    { name: "Btl Marketing", path: "/service/btl-marketing" },
+    { name: "Web Development", path: "/service/web-development" },
   ];
 
   return (
@@ -39,7 +35,7 @@ const Footer = () => {
                 height={80}
                 className="max-w-[60px] lg:max-w-[90px]"
               />
-              <p className="font-Poppins font-semibold text-[26px] md:text-[26px] xl:text-4xl text-white mb-0">
+              <p className="font-Poppins font-semibold text-[26px] xl:text-4xl text-white mb-0">
                 Cynor Media
               </p>
             </Link>
@@ -89,12 +85,11 @@ const Footer = () => {
                 { name: "About Us", path: "/about-us" },
                 { name: "Our Clients", path: "/our-clients" },
                 { name: "Contact Us", path: "/contact-us" },
-                // { name: "Privacy Policy", path: "/privacy-policy" },
               ].map((item) => (
                 <li key={item.path} className="mt-2 md:mt-4">
                   <Link
                     href={item.path}
-                    className="font-Poppins font-normal text-base text-white leading-[121%]"
+                    className="font-Poppins font-normal text-base text-white leading-[121%] hover:text-[#64ccc5]"
                   >
                     {item.name}
                   </Link>
@@ -103,23 +98,20 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Services Section (Now with Links) */}
           <div className="w-full md:w-[25%] lg:w-[20%] mt-5 md:mt-0 flex lg:justify-center">
             <ul>
               <li className="font-Poppins font-semibold text-xl text-white">
                 Services
               </li>
-              {[
-                "Float Van Campaign",
-                "Market Setup",
-                "Digital Marketing",
-                "Btl Marketing",
-                "Web Development",
-              ].map((service, i) => (
+              {services.map(({ name, path }, i) => (
                 <li key={i} className="mt-2 md:mt-4">
-                  <span className="font-Poppins font-normal text-base text-white leading-[121%]">
-                    {service}
-                  </span>
+                  <Link
+                    href={path}
+                    className="font-Poppins font-normal text-base text-white leading-[121%] hover:text-[#64ccc5]"
+                  >
+                    {name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -166,11 +158,9 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="font-Poppins font-normal text-[15px] md:text-base text-white mt-2 md:mt-4 max-w-[796px]"
             >
-              {" "}
               Opposite Nabha Sahib Gurudwara VIP road Zirakpur from, Patiala Rd,
               Zirakpur, Punjab 140603
             </a>
-            <p></p>
           </div>
           <div className="w-full md:w-2/4 xl:w-[20%]">
             <p className="font-Poppins font-semibold text-xl text-white">
