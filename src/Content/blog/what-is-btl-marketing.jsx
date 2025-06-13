@@ -61,17 +61,17 @@ export default function WhatIsBtlMarketing() {
                     <h3 id="float-van-benefits" className="font-bold text-xl pb-1 text-[#64ccc5]">BTL Strategies That Make an Impact
                     </h3>
                     <p>BTL campaigns are built on creativity and engagement. Here are some strategies that leading brands (including our clients at Cynor Media) use to leave a lasting impact:
-                        <ul className="list-disc ps-4">
-                            <li>Live product demonstrations</li>
-                            <li>Interactive roadshows and float van promotions</li>
-                            <li>Sampling campaigns in malls and retail outlets</li>
-                            <li>Trade shows and branded exhibition booths</li>
-                            <li>Flash mobs and on-ground brand activations</li>
-                            <li>Personalized direct mail and telemarketing</li>
-                            <li>Guerrilla marketing and pop-up experiences</li>
-                            <li>Campus engagement programs and influencer outreach</li>
-                        </ul>
                     </p>
+                    <ul className="list-disc ps-4">
+                        <li>Live product demonstrations</li>
+                        <li>Interactive roadshows and float van promotions</li>
+                        <li>Sampling campaigns in malls and retail outlets</li>
+                        <li>Trade shows and branded exhibition booths</li>
+                        <li>Flash mobs and on-ground brand activations</li>
+                        <li>Personalized direct mail and telemarketing</li>
+                        <li>Guerrilla marketing and pop-up experiences</li>
+                        <li>Campus engagement programs and influencer outreach</li>
+                    </ul>
 
                 </section>
 
