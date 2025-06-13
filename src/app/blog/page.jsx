@@ -2,17 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 const blogList = [
-  // {
-  //   slug: "what-is-btl-marketing",
-  //   title: "What is BTL Marketing?",
-  //   description:
-  //     "Explore Below The Line (BTL) marketing strategies that create personal engagement and measurable impact.",
-  //   image: "/images/Blog/Webp/What-isbtl-marketing.png",
-  //   author: "Aayush Bishnoi",
-  //   published: "June 10, 2025",
-  //   excerpt:
-  //     "Dive into how BTL marketing strategies like float vans, activations, and direct engagement can amplify your brand’s impact.",
-  // },
+  {
+    slug: "what-is-btl-marketing",
+    title: "What is BTL Marketing?",
+    description:
+      "Explore Below The Line (BTL) marketing strategies that create personal engagement and measurable impact.",
+    image: "/images/Blog/Webp/What-isbtl-marketing.png",
+    author: "Aayush Bishnoi",
+    published: "June 10, 2025",
+    excerpt:
+      "Dive into how BTL marketing strategies like float vans, activations, and direct engagement can amplify your brand’s impact.",
+  },
   {
     slug: "digital-marketing-strategies",
     title: "Digital Marketing Strategies",
