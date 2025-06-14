@@ -28,7 +28,7 @@ export default function FloatVanCampaign() {
 
         <section className="pt-4">
           <Image
-            src="/images/Blog/Webp/Float-Van.webp"
+            src="/images/Blog/Webp/Float-blog-page-img.webp"
             alt={""}
             width={600}
             height={350}
