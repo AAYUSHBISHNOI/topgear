@@ -33,7 +33,7 @@ export default function WhatIsBtlMarketing() {
 
         <section className="pt-4">
           <Image
-            src="/images/Blog/Webp/Define-img.png"
+            src="/Images/Blog/Webp/Define-img.png"
             alt=""
             width={600}
             height={350}

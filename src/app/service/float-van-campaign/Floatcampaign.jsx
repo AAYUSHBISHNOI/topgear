@@ -130,7 +130,7 @@ const Floatcampaign = () => {
         </div>
         <div>
           <Image
-            src="/images/Blog/Webp/Intra-car-1.jpg"
+            src="/Images/Blog/Webp/Intra-car-1.jpg"
             alt="Float Van Example"
             width={600}
             height={400}
@@ -196,7 +196,7 @@ const Floatcampaign = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
             <Image
-              src="/images/Blog/Webp/Intra-car-5.jpg"
+              src="/Images/Blog/Webp/Intra-car-5.jpg"
               alt="Why Choose Us"
               width={600}
               height={500}
@@ -400,7 +400,7 @@ const Floatcampaign = () => {
                   className="relative w-full h-[250px] md:h-[300px] rounded-xl overflow-hidden border border-transparent hover:border-[#64ccc5] transition duration-300"
                 >
                   <Image
-                    src={`/images/Blog/Webp/${img}`}
+                    src={`/Images/Blog/Webp/${img}`}
                     alt={`Campaign ${i + 1}`}
                     fill
                     className="object-cover rounded-xl"
