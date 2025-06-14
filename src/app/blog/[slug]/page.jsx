@@ -1,13 +1,13 @@
 import BlogLayout from "../../Components/BlogLayout";
 
-import WhatIsBTLMarketing from "../../../../content/blog/what-is-btl-marketing.jsx";
-import FloatVanCampaign from "../../../../content/blog/float-van-campaign.jsx";
-import DigitalMarketingStrategies from "../../../../content/blog/digital-marketing-strategies.jsx";
+import WhatIsBTLMarketing from "../../../content/blog/what-is-btl-marketing.jsx";
+import FloatVanCampaign from "../../../content/blog/float-van-campaign.jsx";
+import DigitalMarketingStrategies from "../../../content/blog/digital-marketing-strategies.jsx";
 
 const blogMap = {
-  "digital-marketing-strategies": DigitalMarketingStrategies,
-  "float-van-campaign": FloatVanCampaign,
   "what-is-btl-marketing": WhatIsBTLMarketing,
+  "float-van-campaign": FloatVanCampaign,
+  "digital-marketing-strategies": DigitalMarketingStrategies,
 };
 
 export async function generateStaticParams() {
