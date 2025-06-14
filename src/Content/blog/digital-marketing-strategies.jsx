@@ -158,7 +158,10 @@ export default function DigitalMarketingStrategies() {
         <hr className="my-8" />
 
         <section>
-          <h3 id="conclusion" className="font-bold text-xl pb-1 text-[#64ccc5]">
+          <h3
+            id="digital-marketing-conclusion"
+            className="font-bold text-xl pb-1 text-[#64ccc5]"
+          >
             Conclusion
           </h3>
           <p>

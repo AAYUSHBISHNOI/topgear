@@ -1,5 +1,7 @@
 import BlogLayout from "@/app/Components/BlogLayout";
 import dynamic from "next/dynamic";
+import fs from "fs";
+import path from "path";
 
 async function importBlogComponent(slug) {
   try {
@@ -9,11 +11,17 @@ async function importBlogComponent(slug) {
     return null;
   }
 }
+
 export async function generateStaticParams() {
-  return []; // your dynamic slug paths
+  const blogDir = path.join(process.cwd(), "src/content/blog");
+  const files = fs.readdirSync(blogDir);
+  return files.map((file) => ({
+    slug: file.replace(/\.jsx$/, ""),
+  }));
 }
 
-export default async function BlogPost({ params: { slug } }) {
+export default async function BlogPost({ params }) {
+  const { slug } = params;
   const BlogComponent = await importBlogComponent(slug);
 
   if (!BlogComponent) {
