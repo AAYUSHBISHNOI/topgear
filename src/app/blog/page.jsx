@@ -9,7 +9,7 @@ const blogList = [
       "Explore Below The Line (BTL) marketing strategies that create personal engagement and measurable impact.",
     image: "/images/Blog/Webp/What-isbtl-marketing.png",
     author: "Aayush Bishnoi",
-    published: "June 10, 2025",
+    published: "June 11, 2025",
     excerpt:
       "Dive into how BTL marketing strategies like float vans, activations, and direct engagement can amplify your brand’s impact.",
   },
