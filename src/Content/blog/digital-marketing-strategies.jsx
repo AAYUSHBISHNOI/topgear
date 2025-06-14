@@ -27,7 +27,7 @@ export default function DigitalMarketingStrategies() {
 
         <section className="pt-4">
           <Image
-            src={"/images/Blog/Webp/Digital-Marketing.webp"}
+            src="/images/Blog/Webp/Digital-Marketing.webp"
             alt={""}
             width={600}
             height={350}

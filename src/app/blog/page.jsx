@@ -19,7 +19,7 @@ const blogList = [
     description:
       "Discover essential digital tactics like SEO, email, content, and social media to grow your brand online.",
     image: "/images/Blog/Webp/Digital-Marketing.webp",
-    author: "Aayush Bishnoi",
+    author: "Aman",
     published: "June 8, 2025",
   },
   {
@@ -28,7 +28,7 @@ const blogList = [
     description:
       "See how mobile float vans can bring your brand directly to your audience with high visibility and interaction.",
     image: "/images/Blog/Webp/Float-Van.webp",
-    author: "Aayush Bishnoi",
+    author: "Bharat ",
     published: "June 6, 2025",
   },
 ];
