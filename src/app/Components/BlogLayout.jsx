@@ -26,7 +26,7 @@ export default function BlogLayout({ children }) {
       {/* Sidebar TOC */}
       <aside className="hidden lg:block w-1/4 sticky top-20 h-max">
         <nav className="space-y-3 font-sans text-gray-800">
-          <p className="text-lg font-bold text-black mb-3 font-Poppins">
+          <p className="text-lg font-bold text-black mb-2 font-Poppins">
             On this page
           </p>
           <ul className="space-y-2">
@@ -34,7 +34,7 @@ export default function BlogLayout({ children }) {
               <li key={item.id} className={item.level === 3 ? "ml-0" : ""}>
                 <a
                   href={`#${item.id}`}
-                  className="block text-sm font-Poppins font-medium text-gray-600 hover:text-[#64ccc5] transition-colors duration-200"
+                  className="block text-sm font-Poppins font-medium text-gray-500 hover:text-[#64ccc5] transition-colors duration-200"
                 >
                   {item.text}
                 </a>
