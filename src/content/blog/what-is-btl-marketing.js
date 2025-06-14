@@ -75,7 +75,7 @@ export default function WhatIsBtlMarketing() {
             In a world where people are exposed to thousands of advertisements
             daily, BTL provides a different thing — something to remember.
             Through human contact, live demos, and experiential installations,
-            brands get to penetrate the clutter and have a better impact. <br />{" "}
+            brands get to penetrate the clutter and have a better impact. <br />
             <br />
             Additionally, BTL campaigns go hand in hand with digital efforts.
             Blending physical experiences with QR codes, mobile applications, or
@@ -129,7 +129,7 @@ export default function WhatIsBtlMarketing() {
             everything runs smoothly — from ideation to post-campaign analytics.
             Every campaign we run is backed by KPIs and reporting to track
             real-time success. <br /> <br />
-            Visit our client showcase to explore how we've helped brands
+            Visit our client showcase to explore how we&apos;ve helped brands
             achieve up to 60% lead growth using tailored BTL tactics.
           </p>
         </section>
@@ -142,7 +142,7 @@ export default function WhatIsBtlMarketing() {
           </h3>
           <p>
             One of the biggest strengths of BTL campaigns is measurability.
-            Whether it's footfall, lead generation, coupon redemption, or
+            Whether it&apos;s footfall, lead generation, coupon redemption, or
             social media impressions from live activations — we provide
             real-time tracking and performance analysis. <br /> <br />
             This data-driven approach allows brands to pivot mid-campaign,
@@ -156,12 +156,12 @@ export default function WhatIsBtlMarketing() {
         <section id="btl-key-takeaways">
           <h3 className="font-bold text-xl pb-1 text-[#64ccc5]">Conclusion</h3>
           <p>
-            BTL marketing is not an afterthought to ATL — it's a force
-            unto itself. At a time when people are feeling over-personalized and
+            BTL marketing is not an afterthought to ATL — it&apos;s a force unto
+            itself. At a time when people are feeling over-personalized and
             attention poor, BTL gives your brand the power to differentiate on
             experience, engagement, and emotional resonance. Ready to take your
             brand to a higher level with a high-impact campaign? Call Cynor
-            Media today and let's create something memorable.
+            Media today and let&apos;s create something memorable.
           </p>
         </section>
       </div>
