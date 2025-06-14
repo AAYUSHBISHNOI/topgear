@@ -34,7 +34,7 @@ export default function WhatIsBtlMarketing() {
         <section className="pt-4">
           <Image
             src="/images/Blog/Webp/What-isbtl-marketing.png"
-            alt={""}
+            alt=""
             width={600}
             height={350}
             className="w-full h-full object-cover rounded-lg"
@@ -123,14 +123,14 @@ export default function WhatIsBtlMarketing() {
             With a strong presence across India, Cynor Media has mastered the
             art of high-impact, regionally personalized BTL marketing. Our
             expertise spans product launches, mall activations, exhibitions, and
-            campus engagement campaigns.,
+            campus engagement campaigns.
             <br /> <br />
             Our creative team and experienced execution specialists ensure
             everything runs smoothly — from ideation to post-campaign analytics.
             Every campaign we run is backed by KPIs and reporting to track
             real-time success. <br /> <br />
-            Visit our client showcase to explore how we've helped brands achieve
-            up to 60% lead growth using tailored BTL tactics.
+            Visit our client showcase to explore how we've helped brands
+            achieve up to 60% lead growth using tailored BTL tactics.
           </p>
         </section>
 
@@ -142,9 +142,9 @@ export default function WhatIsBtlMarketing() {
           </h3>
           <p>
             One of the biggest strengths of BTL campaigns is measurability.
-            Whether it’s footfall, lead generation, coupon redemption, or social
-            media impressions from live activations — we provide real-time
-            tracking and performance analysis. <br /> <br />
+            Whether it's footfall, lead generation, coupon redemption, or
+            social media impressions from live activations — we provide
+            real-time tracking and performance analysis. <br /> <br />
             This data-driven approach allows brands to pivot mid-campaign,
             customize strategies per city, and optimize budgets across
             territories.
@@ -156,8 +156,8 @@ export default function WhatIsBtlMarketing() {
         <section id="btl-key-takeaways">
           <h3 className="font-bold text-xl pb-1 text-[#64ccc5]">Conclusion</h3>
           <p>
-            BTL marketing is not an afterthought to ATL — it's a force unto
-            itself. At a time when people are feeling over-personalized and
+            BTL marketing is not an afterthought to ATL — it's a force
+            unto itself. At a time when people are feeling over-personalized and
             attention poor, BTL gives your brand the power to differentiate on
             experience, engagement, and emotional resonance. Ready to take your
             brand to a higher level with a high-impact campaign? Call Cynor
