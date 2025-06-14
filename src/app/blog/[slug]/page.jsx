@@ -1,8 +1,8 @@
 import BlogLayout from "../../Components/BlogLayout";
 
-import WhatIsBTLMarketing from "../../../content/blog/what-is-btl-marketing.jsx";
-import FloatVanCampaign from "../../../content/blog/float-van-campaign.jsx";
-import DigitalMarketingStrategies from "../../../content/blog/digital-marketing-strategies.jsx";
+import WhatIsBTLMarketing from "../../../content/blog/what-is-btl-marketing.js";
+import FloatVanCampaign from "../../../content/blog/float-van-campaign.js";
+import DigitalMarketingStrategies from "../../../content/blog/digital-marketing-strategies.js";
 
 const blogMap = {
   "what-is-btl-marketing": WhatIsBTLMarketing,
