@@ -1,8 +1,8 @@
-import BlogLayout from "/app/Components/BlogLayout";
+import BlogLayout from "@/app/Components/BlogLayout";
 
-import DigitalMarketingStrategies from "src/content/blog/digital-marketing-strategies.jsx";
-import FloatVanCampaign from "src/content/blog/float-van-campaign.jsx";
-import WhatIsBTLMarketing from "src/content/blog/what-is-btl-marketing.jsx";
+import DigitalMarketingStrategies from "@/content/blog/digital-marketing-strategies.jsx";
+import FloatVanCampaign from "@/content/blog/float-van-campaign.jsx";
+import WhatIsBTLMarketing from "@/content/blog/what-is-btl-marketing.jsx";
 
 const blogMap = {
   "digital-marketing-strategies": DigitalMarketingStrategies,
