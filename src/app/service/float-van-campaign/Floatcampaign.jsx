@@ -4,10 +4,8 @@ import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import { CommonArrow } from "@/app/Common/Icon";
 
 const faqData = [
   {
@@ -132,7 +130,7 @@ const Floatcampaign = () => {
         </div>
         <div>
           <Image
-            src="/images/Blog/Webp/Float-van-1.jpg"
+            src="/images/Blog/Webp/Intra-car-1.jpg"
             alt="Float Van Example"
             width={600}
             height={400}
@@ -198,7 +196,7 @@ const Floatcampaign = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
             <Image
-              src="/images/Blog/Webp/Float-van-5.jpg"
+              src="/images/Blog/Webp/Intra-car-5.jpg"
               alt="Why Choose Us"
               width={600}
               height={500}
@@ -395,7 +393,7 @@ const Floatcampaign = () => {
             Float Van Gallery
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {["Float-van-2.jpg", "Float-van-3.jpg", "Float-van-4.jpg"].map(
+            {["Intra-car-2.jpg", "Intra-car-3.jpg", "Intra-car-4.jpg"].map(
               (img, i) => (
                 <div
                   key={i}
@@ -439,7 +437,7 @@ const Floatcampaign = () => {
       </motion.section>
 
       {/* CTA Section */}
-      <motion.section
+      {/* <motion.section
         className="bg-black text-white py-20 text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -467,7 +465,7 @@ const Floatcampaign = () => {
             </span>
           </button>
         </div>
-      </motion.section>
+      </motion.section> */}
     </main>
   );
 };

@@ -7,7 +7,7 @@ const blogList = [
     title: "What is BTL Marketing?",
     description:
       "Explore Below The Line (BTL) marketing strategies that create personal engagement and measurable impact.",
-    image: "/images/Blog/Webp/Btl-marketing-blog.png",
+    image: "/images/Blog/Webp/Define-img.png",
     author: "Aayush Bishnoi",
     published: "June 11, 2025",
     excerpt:
@@ -18,7 +18,7 @@ const blogList = [
     title: "Digital Marketing Strategies",
     description:
       "Discover essential digital tactics like SEO, email, content, and social media to grow your brand online.",
-    image: "/images/Blog/Webp/Marketing-img.webp",
+    image: "/images/Blog/Webp/Man-with-laptop.webp",
     author: "Aman",
     published: "June 8, 2025",
   },
@@ -27,7 +27,7 @@ const blogList = [
     title: "Float Van Campaign",
     description:
       "See how mobile float vans can bring your brand directly to your audience with high visibility and interaction.",
-    image: "/images/Blog/Webp/Float-blog-page-img.webp",
+    image: "/images/Blog/Webp/Suzuki-img.webp",
     author: "Bharat ",
     published: "June 6, 2025",
   },
