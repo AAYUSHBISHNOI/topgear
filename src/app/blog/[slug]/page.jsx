@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import BlogLayout from "../../Components/BlogLayout";
 
 import WhatIsBTLMarketing from "../../../content/blog/what-is-btl-marketing.js";

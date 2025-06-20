@@ -1,6 +1,8 @@
 import Campaigncards from "../Components/Campaigncards";
 import OurService from "../Components/Ourservices";
 
+export const dynamic = "force-static";
+
 export const metadata = {
   title: "BTL Marketing & Event Management Services",
   description:

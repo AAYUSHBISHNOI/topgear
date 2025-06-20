@@ -60,21 +60,26 @@ const AccordionItem = ({ faq, index, openIndex, setOpenIndex }) => {
   }, [isOpen]);
 
   return (
-    <div className="border border-gray-200 rounded-md overflow-hidden">
+    <div className="bg-white/80 backdrop-blur-md border border-[#64ccc5]/20 rounded-xl shadow-md overflow-hidden transition-all duration-300">
       <button
         onClick={() => setOpenIndex(isOpen ? null : index)}
-        className={`w-full text-left px-4 py-3 font-medium text-gray-800 bg-white focus:outline-none hover:text-[#64ccc5] ${
-          isOpen ? "text-[#64ccc5]" : ""
-        }`}
+        className="w-full flex justify-between items-center px-6 py-4 font-semibold text-gray-800 text-left focus:outline-none hover:text-[#64ccc5] transition-all duration-300"
       >
         {faq.question}
+        <span
+          className={`text-xl transform transition-transform duration-300 ${
+            isOpen ? "rotate-45 text-[#64ccc5]" : "rotate-0"
+          }`}
+        >
+          +
+        </span>
       </button>
       <div
         ref={contentRef}
-        className="px-4 overflow-hidden transition-all duration-300 ease-in-out text-gray-600"
+        className="px-6 overflow-hidden transition-all duration-300 ease-in-out text-gray-600"
         style={{ maxHeight: "0px" }}
       >
-        <p className="py-2">{faq.answer}</p>
+        <p className="py-2 text-sm">{faq.answer}</p>
       </div>
     </div>
   );
@@ -82,7 +87,6 @@ const AccordionItem = ({ faq, index, openIndex, setOpenIndex }) => {
 
 const Floatcampaign = () => {
   const [openIndex, setOpenIndex] = useState(0);
-
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
@@ -263,9 +267,9 @@ const Floatcampaign = () => {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="bg-white shadow-md p-6 rounded-xl border-l-4 border-[#64ccc5] hover:shadow-xl transition duration-300"
+                className="bg-white text-gray-800 shadow-md p-6 rounded-xl border-l-4 border-[#64ccc5] hover:bg-[#64ccc5] hover:text-white transition-all duration-1000"
               >
-                <h4 className="text-lg font-semibold text-gray-800">{item}</h4>
+                <h4 className="text-lg font-semibold">{item}</h4>
               </div>
             ))}
           </div>
@@ -414,25 +418,33 @@ const Floatcampaign = () => {
 
       {/* FAQ Section */}
       <motion.section
-        className="py-16 px-4 max-w-6xl mx-auto"
+        className="relative overflow-hidden bg-gradient-to-br from-[#e0f7fa] to-[#f8ffff] rounded-xl shadow-xl"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-3xl font-bold text-center mb-10 text-[#64ccc5]">
-          Frequently Asked Questions
-        </h2>
-        <div className="space-y-4">
-          {faqData.map((faq, index) => (
-            <AccordionItem
-              key={faq.id}
-              faq={faq}
-              index={index}
-              openIndex={openIndex}
-              setOpenIndex={setOpenIndex}
-            />
-          ))}
+        {/* Background Blobs */}
+        <div className="absolute top-[-120px] left-[-100px] w-[300px] h-[300px] bg-[#64ccc5] opacity-30 rounded-full blur-3xl animate-blob z-0"></div>
+        <div className="absolute top-[150px] right-[-120px] w-[300px] h-[300px] bg-[#64ccc5] opacity-20 rounded-full blur-2xl animate-blob-delay z-0"></div>
+
+        {/* Content */}
+        <div className="relative py-20 px-4 max-w-6xl mx-auto z-10">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#0f172a] tracking-tight">
+            <span className="text-[#64ccc5]">Frequently</span> Asked Questions
+          </h2>
+
+          <div className="space-y-6">
+            {faqData.map((faq, index) => (
+              <AccordionItem
+                key={faq.id}
+                faq={faq}
+                index={index}
+                openIndex={openIndex}
+                setOpenIndex={setOpenIndex}
+              />
+            ))}
+          </div>
         </div>
       </motion.section>
 

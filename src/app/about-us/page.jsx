@@ -6,6 +6,8 @@ import WhyChooseUs from "../Components/Whychooseusaboutus";
 import Ourmissionaboutus from "../Components/Ourmissionaboutus";
 import Enoughtalks from "../Common/Enoughtalks";
 
+export const dynamic = "force-static";
+
 export const metadata = {
   title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
   description:

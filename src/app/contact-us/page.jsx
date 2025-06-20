@@ -2,6 +2,12 @@ import React from "react";
 import LetsTalkContactUs from "../Components/Letstalkcontactus";
 import Mapcontactus from "../Components/Mapcontactus";
 
+
+
+export const dynamic = "force-static";
+
+
+
 export const metadata = {
   title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media  ",
   description:

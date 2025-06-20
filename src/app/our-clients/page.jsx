@@ -6,6 +6,14 @@ import Wallofreviews from "../Components/Wallofreviews";
 import Accordion from "../Components/Accordion";
 import Enoughtalks from "../Common/Enoughtalks";
 
+
+
+
+export const dynamic = "force-static";
+
+
+
+
 export const metadata = {
   title: "Our Clients - Trusted by Top Brands | Cynor Media",
   description:

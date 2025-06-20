@@ -6,6 +6,12 @@ import Ourprocesshome from "../Components/Ourprocesshome";
 import Recentshowcasehome from "../Components/Recentshowcasehome";
 import Founderqoute from "../Components/Founderquote";
 
+
+export const dynamic = "force-static";
+
+
+
+
 export const metadata = {
   title: "Cynor Media - Expert BTL Marketing & Event Management Services",
   description:
