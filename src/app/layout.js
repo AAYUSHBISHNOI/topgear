@@ -12,8 +12,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    template: "%s | Cynor Media",
     default: "Cynor Media - BTL Marketing Experts in India",
+    template: "%s | Cynor Media",
   },
   description:
     "Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand’s visibility.",
