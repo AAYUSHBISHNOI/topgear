@@ -5,7 +5,7 @@ import Mapcontactus from "../Components/Mapcontactus";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
+  title: "Contact Us - Expert BTL Marketing & Event Management",
   description:
     "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
+    title: "Contact Us - Expert BTL Marketing & Event Management",
     description:
       "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
     url: "https://www.cynormedia.com/contact-us",
@@ -32,7 +32,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
+    title: "Contact Us - Expert BTL Marketing & Event Management",
     description:
       "Cynor Media offers expert BTL marketing services and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
     images: [
