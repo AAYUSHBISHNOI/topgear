@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "BTL Marketing & Event Management Services",
   description:
-    "Explore Cynor Media's expert BTL marketing services, including event management, promotional campaigns, and branding solutions across India and Australia.",
+    "Cynor Media is India’s trusted BTL marketing company for impactful events, branding, and on-ground activations that connect directly with your audience.",
   keywords: [
     "BTL marketing",
     "event management",
@@ -18,21 +18,34 @@ export const metadata = {
   openGraph: {
     title: "BTL Marketing & Event Management Services",
     description:
-      "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
+      "Cynor Media is India’s trusted BTL marketing company for impactful events, branding, and on-ground activations that connect directly with your audience.",
     url: "https://www.cynormedia.com/service",
-    images: ["/images/og-services.jpg"],
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/c7/4c/CtsxVpHR_t.png",
+        width: 1200,
+        height: 630,
+        alt: "Cynor Media Services",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "BTL Marketing & Event Management Services",
     description:
-      "Cynor Media delivers top-notch BTL marketing, event management, and promotional campaign services across India to boost your brand visibility and engagement.",
-    images: ["/images/og-services.jpg"],
+      "Cynor Media is India’s trusted BTL marketing company for impactful events, branding, and on-ground activations that connect directly with your audience.",
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/c7/4c/CtsxVpHR_t.png",
+        alt: "Cynor Media Services",
+      },
+    ],
   },
   alternates: {
     canonical: "https://www.cynormedia.com/service",
   },
 };
+
 export default function service() {
   return (
     <main>

@@ -2,14 +2,10 @@ import React from "react";
 import LetsTalkContactUs from "../Components/Letstalkcontactus";
 import Mapcontactus from "../Components/Mapcontactus";
 
-
-
 export const dynamic = "force-static";
 
-
-
 export const metadata = {
-  title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media  ",
+  title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
   description:
     "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
   keywords: [
@@ -21,14 +17,13 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title:
-      "Contact Us - Expert BTL Marketing & Event Management | Cynor Media  ",
+    title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
     description:
       "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
-    url: "https://www.cynormedia.com/service",
+    url: "https://www.cynormedia.com/contact-us",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/38/07/bI8FwxmK_t.png",
         width: 1200,
         height: 630,
         alt: "Cynor Media Services",
@@ -37,30 +32,27 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Contact Us - Expert BTL Marketing & Event Management | Cynor Media  ",
+    title: "Contact Us - Expert BTL Marketing & Event Management | Cynor Media",
     description:
-      "Cynor Media offers expert BTL marketing services and event management solutions across India and Australia. Elevate your brand with our promotional campaigns and branding expertise.",
+      "Cynor Media offers expert BTL marketing services and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/38/07/bI8FwxmK_t.png",
         alt: "Cynor Media Services",
       },
     ],
   },
   alternates: {
-    canonical: "https://www.cynormedia.com/service",
+    canonical: "https://www.cynormedia.com/contact-us",
   },
 };
 
 const ContactUs = () => {
   return (
-    <>
-      <main className="bg-[#fbfbfb]">
-        <LetsTalkContactUs />
-        <Mapcontactus />
-      </main>
-    </>
+    <main className="bg-[#fbfbfb]">
+      <LetsTalkContactUs />
+      <Mapcontactus />
+    </main>
   );
 };
 

@@ -1,5 +1,49 @@
 export const dynamic = "force-static";
 
+export const metadata = {
+  title: "Featured Blog Posts | Cynor Media",
+  description:
+    "Read our expert blogs on branding, BTL strategies, and marketing trends to elevate your campaigns.",
+  keywords: [
+    "BTL marketing blogs",
+    "digital marketing blog",
+    "float van campaign",
+    "event marketing insights",
+    "Cynor Media blog",
+    "branding tips",
+  ],
+  robots: "index, follow",
+  openGraph: {
+    title: "Featured Blog Posts | Cynor Media",
+    description:
+      "Read our expert blogs on branding, BTL strategies, and marketing trends to elevate your campaigns.",
+    url: "https://www.cynormedia.com/blog",
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/c8/4b/HwWpv78w_t.png",
+        width: 1200,
+        height: 630,
+        alt: "Cynor Media Blog",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Featured Blog Posts | Cynor Media",
+    description:
+      "Explore insights on marketing strategies from Cynor Media’s blog.",
+    images: [
+      {
+        url: "https://thumbs2.imgbox.com/c8/4b/HwWpv78w_t.png",
+        alt: "Cynor Media Blog",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.cynormedia.com/blog",
+  },
+};
+
 import Link from "next/link";
 import Image from "next/image";
 

@@ -6,16 +6,12 @@ import Ourprocesshome from "../Components/Ourprocesshome";
 import Recentshowcasehome from "../Components/Recentshowcasehome";
 import Founderqoute from "../Components/Founderquote";
 
-
 export const dynamic = "force-static";
-
-
-
 
 export const metadata = {
   title: "Cynor Media - Expert BTL Marketing & Event Management Services",
   description:
-    "Cynor Media offers expert BTL marketing services and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
+    "Take your brand directly to your audience with Cynor Media’s expert BTL marketing. We plan and execute roadshows, activations, and unforgettable brand events across India.",
   keywords: [
     "BTL marketing",
     "event management",
@@ -27,11 +23,11 @@ export const metadata = {
   openGraph: {
     title: "Cynor Media - Expert BTL Marketing & Event Management Services",
     description:
-      "Cynor Media offers expert BTL marketing services and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
-    url: "https://www.cynormedia.com/service",
+      "Take your brand directly to your audience with Cynor Media’s expert BTL marketing. We plan and execute roadshows, activations, and unforgettable brand events across India.",
+    url: "https://www.cynormedia.com",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/65/84/3OyMvm5A_t.png",
         width: 1200,
         height: 630,
         alt: "Cynor Media Services",
@@ -42,31 +38,29 @@ export const metadata = {
     card: "summary_large_image",
     title: "Cynor Media - Expert BTL Marketing & Event Management Services",
     description:
-      "Cynor Media offers expert BTL marketing services and event management solutions across India and Australia. Elevate your brand with our promotional campaigns and branding expertise.",
+      "Take your brand directly to your audience with Cynor Media’s expert BTL marketing. We plan and execute roadshows, activations, and unforgettable brand events across India.",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/65/84/3OyMvm5A_t.png",
         alt: "Cynor Media Services",
       },
     ],
   },
   alternates: {
-    canonical: "https://www.cynormedia.com/service",
+    canonical: "https://www.cynormedia.com",
   },
 };
 
 const Home = () => {
   return (
-    <>
-      <main>
-        <Herohome />
-        <Ourservicehome />
-        <Aboutushome />
-        <Ourprocesshome />
-        <Recentshowcasehome />
-        <Founderqoute />
-      </main>
-    </>
+    <main>
+      <Herohome />
+      <Ourservicehome />
+      <Aboutushome />
+      <Ourprocesshome />
+      <Recentshowcasehome />
+      <Founderqoute />
+    </main>
   );
 };
 

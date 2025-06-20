@@ -1,9 +1,7 @@
 import React from "react";
 import Floatcampaign from "./Floatcampaign";
 
-
 export const dynamic = "force-static";
-
 
 export const metadata = {
   title: "Float Van Campaign - Powerful On-Ground Branding | Cynor Media",
@@ -25,7 +23,7 @@ export const metadata = {
     url: "https://www.cynormedia.com/float-van-campaign",
     images: [
       {
-        url: "/images/og-float-van.jpg",
+        url: "https://thumbs2.imgbox.com/a9/19/JRotmtXP_t.jpg",
         width: 1200,
         height: 630,
         alt: "Cynor Media Float Van Campaign",
@@ -39,7 +37,7 @@ export const metadata = {
       "Float Van campaigns designed to create visibility and connect your brand with people across India. Partner with Cynor Media.",
     images: [
       {
-        url: "/images/og-float-van.jpg",
+        url: "https://thumbs2.imgbox.com/a9/19/JRotmtXP_t.jpg",
         alt: "Float Van by Cynor Media",
       },
     ],
@@ -48,7 +46,6 @@ export const metadata = {
     canonical: "https://www.cynormedia.com/float-van-campaign",
   },
 };
-
 
 const FloatVanCampaign = () => {
   return (

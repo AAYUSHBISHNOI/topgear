@@ -24,10 +24,10 @@ export const metadata = {
     title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
     description:
       "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
-    url: "https://www.cynormedia.com/service",
+    url: "https://www.cynormedia.com/about-us",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/92/cd/RFpJfOWa_t.png",
         width: 1200,
         height: 630,
         alt: "Cynor Media Services",
@@ -38,32 +38,30 @@ export const metadata = {
     card: "summary_large_image",
     title: "About Us - Expert BTL Marketing & Event Management | Cynor Media ",
     description:
-      "Cynor Media offers expert BTL marketing services and event management solutions across India and Australia. Elevate your brand with our promotional campaigns and branding expertise.",
+      "Cynor Media is a leading BTL marketing and event management company in India, delivering impactful brand experiences through activations, roadshows, and promotional events.",
     images: [
       {
-        url: "/images/og-services.jpg",
+        url: "https://thumbs2.imgbox.com/92/cd/RFpJfOWa_t.png",
         alt: "Cynor Media Services",
       },
     ],
   },
   alternates: {
-    canonical: "https://www.cynormedia.com/service",
+    canonical: "https://www.cynormedia.com/about-us",
   },
 };
 
 const AboutUs = () => {
   return (
-    <>
-      <main>
-        <Heroaboutus />
-        <Ourvision />
-        <Experienceaboutus />
-        <Customeraboutus />
-        <WhyChooseUs />
-        <Ourmissionaboutus />
-        <Enoughtalks />
-      </main>
-    </>
+    <main>
+      <Heroaboutus />
+      <Ourvision />
+      <Experienceaboutus />
+      <Customeraboutus />
+      <WhyChooseUs />
+      <Ourmissionaboutus />
+      <Enoughtalks />
+    </main>
   );
 };
 
