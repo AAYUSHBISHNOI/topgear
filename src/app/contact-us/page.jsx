@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "Contact Us - Expert BTL Marketing & Event Management",
   description:
-    "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
+    "Get in touch with Cynor Media for expert BTL marketing and event management solutions across India. Let's elevate your brand together.",
   keywords: [
     "BTL marketing",
     "event management",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Contact Us - Expert BTL Marketing & Event Management",
     description:
-      "Get in touch with Cynor Media for expert BTL marketing services and event management solutions across India. Let's elevate your brand together.",
+      "Get in touch with Cynor Media for expert BTL marketing and event management solutions across India. Let's elevate your brand together.",
     url: "https://www.cynormedia.com/contact-us",
     images: [
       {
@@ -34,7 +34,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Contact Us - Expert BTL Marketing & Event Management",
     description:
-      "Cynor Media offers expert BTL marketing services and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
+      "Cynor Media offers expert BTL marketing and event management solutions across India. Elevate your brand with our promotional campaigns and branding expertise.",
     images: [
       {
         url: "https://thumbs2.imgbox.com/38/07/bI8FwxmK_t.png",
@@ -46,6 +46,7 @@ export const metadata = {
     canonical: "https://www.cynormedia.com/contact-us",
   },
 };
+
 
 const ContactUs = () => {
   return (

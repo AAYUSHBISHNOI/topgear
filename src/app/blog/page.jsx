@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Featured Blog Posts | Cynor Media",
+  title: "Featured Blog Posts",
   description:
     "Read our expert blogs on branding, BTL strategies, and marketing trends to elevate your campaigns.",
   keywords: [
@@ -14,7 +14,7 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Featured Blog Posts | Cynor Media",
+    title: "Featured Blog Posts",
     description:
       "Read our expert blogs on branding, BTL strategies, and marketing trends to elevate your campaigns.",
     url: "https://www.cynormedia.com/blog",
@@ -29,7 +29,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Featured Blog Posts | Cynor Media",
+    title: "Featured Blog Posts",
     description:
       "Explore insights on marketing strategies from Cynor Media’s blog.",
     images: [
