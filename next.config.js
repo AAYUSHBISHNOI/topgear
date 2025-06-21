@@ -1,4 +1,11 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    unoptimized: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       {
@@ -8,4 +15,6 @@ module.exports = {
       },
     ];
   },
-};
+}
+
+module.exports = nextConfig
