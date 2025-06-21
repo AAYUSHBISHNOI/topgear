@@ -91,7 +91,7 @@ const Floatcampaign = () => {
         </div>
         <div>
           <Image
-            src="/placeholder.svg?height=400&width=600"
+            src="/Images/Blog/Webp/Suzuki-img.webp"
             alt="Float Van Example"
             width={600}
             height={400}
