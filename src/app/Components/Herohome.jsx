@@ -24,9 +24,9 @@ const Herohome = () => {
           <div className="lg:flex items-center relative">
             <div className="w-full  flex flex-col justify-center items-center text-center">
               {/* Desktop/Tablet */}
-              <h1 className="hidden md:block font-Poppins font-semibold text-white text-[16px] md:text-3xl lg:text-[32px] xl:text-[38px] 2xl:text-[39px] leading-[1.10] max-w-[600px] lg:max-w-[950px] mb-0">
-                Welcome to Cynor Media — India’s Trusted BTL Marketing Partner
-                for Innovative On-Ground Brand Solutions.
+              <h1 className="font-Poppins font-semibold text-white text-[20px] md:text-3xl lg:text-[32px] xl:text-[38px] 2xl:text-[39px] leading-[122%] max-w-[600px] lg:max-w-[950px] mb-0">
+                India’s Most Agile BTL Partner for Brands Who Want Real
+                Visibility
               </h1>
               <p className="hidden md:block font-Poppins font-normal text-[14px] md:text-lg text-[#dedede] leading-[1.21] mt-3 md:mt-4 xl:mt-3 max-w-[600px] lg:max-w-[730px] xl:max-w-[775px]">
                 Great brands don’t just advertise, they connect. With powerful
@@ -38,9 +38,7 @@ const Herohome = () => {
               </p>
 
               {/* Mobile */}
-              <h1 className="md:hidden font-Poppins font-semibold text-white text-[20px] leading-[122%] max-w-[90%] mb-0">
-                Cynor Media — Trusted BTL Marketing Experts
-              </h1>
+
               <p className="md:hidden font-Poppins font-normal text-[13px] text-[#dedede] leading-[122%] mt-2 max-w-[95%]">
                 Cynor Media turns ideas into impact with expert float vans,
                 product launches, and local activations tailored for real
