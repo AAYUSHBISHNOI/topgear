@@ -9,42 +9,40 @@ import Enoughtalks from "../Common/Enoughtalks";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "About Us - Expert BTL Marketing & Event Management",
+  title: "About Us - Leading BTL Marketing Agency | Cynor Media",
   description:
-    "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
+    "Learn about Cynor Media - India's leading BTL marketing agency with expertise in brand activations, event management, and promotional campaigns. Trusted by Tata, Maruti Suzuki, Hero, and John Deere.",
   keywords: [
-    "BTL marketing",
-    "event management",
+    "about Cynor Media",
+    "BTL marketing agency",
+    "event management company",
+    "brand activation experts",
+    "marketing agency India",
     "promotional campaigns",
-    "branding solutions",
-    "Cynor Media",
   ],
   robots: "index, follow",
   openGraph: {
-    title: "About Us - Expert BTL Marketing & Event Management",
+    title: "About Us - Leading BTL Marketing Agency | Cynor Media",
     description:
-      "Learn about Cynor Media's vision, experience, and mission as a leading BTL marketing and event management company in India. Discover why top brands choose us.",
+      "Learn about Cynor Media - India's leading BTL marketing agency with expertise in brand activations, event management, and promotional campaigns. Trusted by Tata, Maruti Suzuki, Hero, and John Deere.",
     url: "https://www.cynormedia.com/about-us",
+    siteName: "Cynor Media",
     images: [
       {
-        url: "https://thumbs2.imgbox.com/92/cd/RFpJfOWa_t.png",
+        url: "https://www.cynormedia.com/images/about-og-image.png",
         width: 1200,
         height: 630,
-        alt: "Cynor Media Services",
+        alt: "About Cynor Media",
       },
     ],
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us - Expert BTL Marketing & Event Management",
+    title: "About Us - Leading BTL Marketing Agency | Cynor Media",
     description:
-      "Cynor Media is a leading BTL marketing and event management company in India, delivering impactful brand experiences through activations, roadshows, and promotional events.",
-    images: [
-      {
-        url: "https://thumbs2.imgbox.com/92/cd/RFpJfOWa_t.png",
-        alt: "Cynor Media Services",
-      },
-    ],
+      "Learn about Cynor Media - India's leading BTL marketing agency with expertise in brand activations, event management, and promotional campaigns. Trusted by Tata, Maruti Suzuki, Hero, and John Deere.",
+    images: ["https://www.cynormedia.com/images/about-og-image.png"],
   },
   alternates: {
     canonical: "https://www.cynormedia.com/about-us",

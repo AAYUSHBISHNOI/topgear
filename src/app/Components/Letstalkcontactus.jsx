@@ -174,23 +174,26 @@ const LetsTalkContactUs = () => {
       className="py-10 lg:pt-14 xl:pt-24 lg:pb-[105px]"
     >
       <div className=" container max-w-[1440px] mx-auto px-4">
-        <h1 className="text-center font-bold text-5xl ont-Montserrat leading-[121%]">
-          Contact Us
-        </h1>
-        <p className="text-center mt-4 font-Poppins text-lg text-[#c9c9c9]">
-          Get in touch with Cynor Media for expert BTL marketing and event
-          management solutions across India. Let's elevate your brand together.
-        </p>
+        <div className="flex flex-col items-center">
+          <h1 className="text-center font-bold text-5xl ont-Montserrat leading-[121%]">
+            Contact Us
+          </h1>
+          <p className="text-center mt-4 font-Poppins text-lg text-black lg:max-w-[756px]">
+            Get in touch with Cynor Media for expert BTL marketing and event
+            management solutions across India. Let's elevate your brand
+            together.
+          </p>
+        </div>
         <div className="flex flex-wrap justify-between items-center gap-8 p-4 rounded-xl shadow-contact-form mt-10">
           {/* Left Panel */}
           <aside className="w-full md:w-[40%] flex flex-col justify-center items-center md:items-start bg-black text-white p-4 xl:p-10 rounded-xl relative">
             <ContactBgIcon />
-            <h1
+            <h3
               id="contact-heading"
               className="font-Poppins font-semibold text-xl md:text-[22px] lg:text-2xl xl:text-[32px] text-white leading-[1.21]"
             >
               Contact Information
-            </h1>
+            </h3>
             <p className="font-Poppins text-[#c9c9c9] text-sm md:text-lg mt-2 text-center md:text-left">
               Ready to discuss your next marketing campaign? We're here to help
               bring your vision to life.
