@@ -13,10 +13,10 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     default: "Cynor Media - BTL Marketing Experts in India",
-    template: "%s | Cynor Media", // This allows page titles to override
+    template: "%s | Cynor Media",
   },
   description:
-    "Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand's visibility.",
+    "India's most agile BTL marketing partner for brands who want real visibility. Expert below-the-line marketing, brand activations, event management, and promotional campaigns across India.",
   keywords: [
     "Cynor Media",
     "BTL Marketing",
@@ -25,13 +25,23 @@ export const metadata = {
     "Float Van",
   ],
   metadataBase: new URL("https://www.cynormedia.com"),
+
+  // 🔥 FORCE GOOGLE TO USE YOUR DESCRIPTIONS
+  robots: {
+    index: true,
+    follow: true,
+    "max-snippet": 160,
+    "max-image-preview": "large",
+    "max-video-preview": -1,
+  },
+
   openGraph: {
     title: {
       default: "Cynor Media - BTL Marketing Experts in India",
-      template: "%s | Cynor Media", // This allows page titles to override
+      template: "%s | Cynor Media",
     },
     description:
-      "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
+      "India's most agile BTL marketing partner for brands who want real visibility. Expert below-the-line marketing, brand activations, event management, and promotional campaigns across India.",
     url: "https://www.cynormedia.com",
     siteName: "Cynor Media",
     images: [
@@ -44,28 +54,45 @@ export const metadata = {
     ],
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: {
       default: "Cynor Media - BTL Marketing Experts in India",
-      template: "%s | Cynor Media", // This allows page titles to override
+      template: "%s | Cynor Media",
     },
     description:
-      "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
+      "India's most agile BTL marketing partner for brands who want real visibility. Expert below-the-line marketing, brand activations, event management, and promotional campaigns across India.",
     images: ["https://www.cynormedia.com/images/og-image.png"],
   },
+
   icons: {
     icon: "/favicon.ico",
   },
-  // Remove or modify conflicting metadata
+
   verification: {
     google: "m5nGJS4HTwDSjd1aH7CUOU4RlQPbFWxoo5P5s17tX3A",
+  },
+
+  // 🔥 ADDITIONAL GOOGLE CONTROL
+  other: {
+    googlebot: "index, follow, max-snippet:160",
+    bingbot: "index, follow, max-snippet:160",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        {/* 🔥 FORCE GOOGLE TO USE YOUR DESCRIPTIONS */}
+        <meta
+          name="robots"
+          content="index, follow, max-snippet:160, max-image-preview:large"
+        />
+        <meta name="googlebot" content="index, follow, max-snippet:160" />
+        <meta name="bingbot" content="index, follow, max-snippet:160" />
+      </head>
       <body className="antialiased">
         {/* Google Tag Manager */}
         <Script
@@ -92,6 +119,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Cynor Media",
+              description:
+                "India's most agile BTL marketing partner for brands who want real visibility. Expert below-the-line marketing, brand activations, event management, and promotional campaigns across India.",
               image:
                 "https://www.cynormedia.com/static/media/Footer-Logo.9968d6256f29a31ba30636a386b19238.svg",
               url: "https://www.cynormedia.com/",
