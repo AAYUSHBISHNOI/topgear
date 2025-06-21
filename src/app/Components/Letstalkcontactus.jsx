@@ -178,7 +178,8 @@ const LetsTalkContactUs = () => {
           Contact Us
         </h1>
         <p className="text-center mt-4 font-Poppins text-lg text-[#c9c9c9]">
-          Any question or remarks? Just write us a message!
+          Get in touch with Cynor Media for expert BTL marketing and event
+          management solutions across India. Let's elevate your brand together.
         </p>
         <div className="flex flex-wrap justify-between items-center gap-8 p-4 rounded-xl shadow-contact-form mt-10">
           {/* Left Panel */}
@@ -191,7 +192,8 @@ const LetsTalkContactUs = () => {
               Contact Information
             </h1>
             <p className="font-Poppins text-[#c9c9c9] text-sm md:text-lg mt-2 text-center md:text-left">
-              Say something to start a live chat!
+              Ready to discuss your next marketing campaign? We're here to help
+              bring your vision to life.
             </p>
 
             <div className="mt-4 lg:mt-24 space-y-5 xl:space-y-[40px]">

@@ -1,14 +1,14 @@
-import { Poppins } from "next/font/google"
-import Script from "next/script"
-import Navbar from "./Common/Navbar"
-import Footer from "./Common/Footer"
-import "./globals.css"
+import { Poppins } from "next/font/google";
+import Script from "next/script";
+import Navbar from "./Common/Navbar";
+import Footer from "./Common/Footer";
+import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-poppins",
-})
+});
 
 export const metadata = {
   title: {
@@ -17,14 +17,21 @@ export const metadata = {
   },
   description:
     "Cynor Media - Below the line Marketing Company in India, from activations to targeted promotions, to boost your brand's visibility.",
-  keywords: ["Cynor Media", "BTL Marketing", "Event Management", "Brand Activation", "Float Van"],
+  keywords: [
+    "Cynor Media",
+    "BTL Marketing",
+    "Event Management",
+    "Brand Activation",
+    "Float Van",
+  ],
   metadataBase: new URL("https://www.cynormedia.com"),
   openGraph: {
     title: {
       default: "Cynor Media - BTL Marketing Experts in India",
       template: "%s | Cynor Media", // This allows page titles to override
     },
-    description: "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
+    description:
+      "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
     url: "https://www.cynormedia.com",
     siteName: "Cynor Media",
     images: [
@@ -43,7 +50,8 @@ export const metadata = {
       default: "Cynor Media - BTL Marketing Experts in India",
       template: "%s | Cynor Media", // This allows page titles to override
     },
-    description: "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
+    description:
+      "From activations to targeted promotions, boost your brand's visibility with Cynor Media.",
     images: ["https://www.cynormedia.com/images/og-image.png"],
   },
   icons: {
@@ -53,7 +61,7 @@ export const metadata = {
   verification: {
     google: "m5nGJS4HTwDSjd1aH7CUOU4RlQPbFWxoo5P5s17tX3A",
   },
-}
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -84,7 +92,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Cynor Media",
-              image: "https://www.cynormedia.com/static/media/Footer-Logo.9968d6256f29a31ba30636a386b19238.svg",
+              image:
+                "https://www.cynormedia.com/static/media/Footer-Logo.9968d6256f29a31ba30636a386b19238.svg",
               url: "https://www.cynormedia.com/",
               telephone: "+91 89013 99629",
               address: {
@@ -102,7 +111,14 @@ export default function RootLayout({ children }) {
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                  ],
                   opens: "09:00",
                   closes: "20:00",
                 },
@@ -133,5 +149,5 @@ export default function RootLayout({ children }) {
         </noscript>
       </body>
     </html>
-  )
+  );
 }
